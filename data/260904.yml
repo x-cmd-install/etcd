@@ -7,7 +7,7 @@ about:
   head: e9e5656
   archived: false
   latestVersion: v3.7.1
-  collectedAt: 2026-09-04T19:59:33Z
+  collectedAt: 2026-09-04T20:41:13Z
 timeline:
   created: 2013-07-06
   lastCommit: 2026-09-03
@@ -85,6 +85,79 @@ total:
   openIssue: 122
   commit: 25201
 ---
+path: /home/runner/.x-repo/github.com/etcd-io/etcd
+collectedAt: 2026-09-04T20:41:18Z
+loc:
+  Go:
+    code: 166727
+    comments: 26621
+    blanks: 25417
+    files: 1091
+  Json:
+    code: 5021
+    comments: 0
+    blanks: 0
+    files: 27
+  Sh:
+    code: 2865
+    comments: 905
+    blanks: 639
+    files: 45
+  Jsonnet:
+    code: 1654
+    comments: 14
+    blanks: 14
+    files: 10
+  Svg:
+    code: 1394
+    comments: 7
+    blanks: 0
+    files: 9
+  Protobuf:
+    code: 1171
+    comments: 418
+    blanks: 348
+    files: 12
+  Yaml:
+    code: 706
+    comments: 9
+    blanks: 6
+    files: 9
+  Makefile:
+    code: 522
+    comments: 17
+    blanks: 122
+    files: 5
+  Dockerfile:
+    code: 87
+    comments: 22
+    blanks: 27
+    files: 5
+  Bitbake:
+    code: 1
+    comments: 2
+    blanks: 1
+    files: 1
+  Bash:
+    code: 0
+    comments: 3
+    blanks: 1
+    files: 1
+  Markdown:
+    code: 0
+    comments: 7869
+    blanks: 4279
+    files: 65
+  Text:
+    code: 0
+    comments: 561
+    blanks: 21
+    files: 3
+total:
+  code: 180700
+  comments: 36680
+  blanks: 30913
+  files: 1283
 ---
 date: "2026-09-03T17:33:01Z"
 repo:
