@@ -5,13 +5,13 @@ about:
   head: d848b43
   archived: false
   latestVersion: "v3.7.1"
-  collectedAt: 2026-09-08T02:04:54Z
+  collectedAt: 2026-09-08T04:34:34Z
 timeline:
   created: 2013-07-06
   lastCommit: 2026-09-07
   lastRelease: 2026-07-23
 popularity:
-  star: 52242
+  star: 52243
   watcher: 1268
   fork: 10492
   release: 292
@@ -84,7 +84,7 @@ total:
   commit: 25202
 ---
 path: /home/runner/.x-repo/github.com/etcd-io/etcd
-collectedAt: 2026-09-08T02:05:06Z
+collectedAt: 2026-09-08T04:34:47Z
 loc:
   Go:
     code: 166727
