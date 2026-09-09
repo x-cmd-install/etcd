@@ -7,7 +7,7 @@ Distributed reliable key-value store for the most critical data of a distributed
 - **Latest release**: `v3.7.1` (2026-07-23)
 - **Last commit**: 2026-09-08
 - **License**: Apache-2.0
-- **Stars**: 52248 · **Forks**: 10493 · **Open issues**: 7264 · **Contributors**: 983
+- **Stars**: 52237 · **Forks**: 10489 · **Open issues**: 7264 · **Contributors**: 983
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/etcd> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T04:38:35Z._
+_Last regenerated: 2026-09-09T18:48:49Z._
