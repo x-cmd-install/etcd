@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.7.1"
   latestRelease: "v3.7.1"
   latestPrerelease: "v3.7.0-rc.0"
-  collectedAt: 2026-09-10T04:40:58Z
+  collectedAt: 2026-09-10T16:43:39Z
 timeline:
   created: 2013-07-06
   lastCommit: 2026-09-09
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-07-23
   lastPrerelease: 2026-06-01
 popularity:
-  star: 52236
+  star: 52242
   watcher: 1268
-  fork: 10490
+  fork: 10492
   release: 292
   contributor: 983
-  pullRequest: 14540
+  pullRequest: 14541
   issue: 7264
 language:
   Go: 5799251
@@ -34,7 +34,7 @@ recent:
   last30d:
     since: 2026-08-11
     release: 0
-    mergedPR: 40
+    mergedPR: 41
     openPR: 50
     closedIssue: 3
     openIssue: 20
@@ -42,7 +42,7 @@ recent:
   last60d:
     since: 2026-07-12
     release: 3
-    mergedPR: 118
+    mergedPR: 119
     openPR: 104
     closedIssue: 11
     openIssue: 32
@@ -50,7 +50,7 @@ recent:
   last90d:
     since: 2026-06-12
     release: 6
-    mergedPR: 159
+    mergedPR: 160
     openPR: 123
     closedIssue: 20
     openIssue: 47
@@ -58,7 +58,7 @@ recent:
   last180d:
     since: 2026-03-14
     release: 20
-    mergedPR: 391
+    mergedPR: 392
     openPR: 180
     closedIssue: 70
     openIssue: 67
@@ -66,7 +66,7 @@ recent:
   last360d:
     since: 2025-09-15
     release: 33
-    mergedPR: 772
+    mergedPR: 773
     openPR: 207
     closedIssue: 151
     openIssue: 79
@@ -74,21 +74,21 @@ recent:
   last720d:
     since: 2024-09-20
     release: 53
-    mergedPR: 1851
+    mergedPR: 1852
     openPR: 224
     closedIssue: 497
     openIssue: 104
     commit: 3406
 total:
   release: 292
-  mergedPR: 10649
+  mergedPR: 10650
   openPR: 230
   closedIssue: 7139
   openIssue: 125
   commit: 25205
 ---
 path: /home/runner/.x-repo/github.com/etcd-io/etcd
-collectedAt: 2026-09-10T04:41:10Z
+collectedAt: 2026-09-10T16:43:50Z
 loc:
   Go:
     code: 166727
