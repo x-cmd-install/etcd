@@ -12,6 +12,28 @@ Distributed reliable key-value store for the most critical data of a distributed
 x install etcd
 ```
 
+## 代码规模
+
+合计: **180,163** 行代码（覆盖前 5 种语言、共 **1182** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Go | 166,728 | 26,627 | 25,417 | 1091 |
+| Json | 5,021 | 0 | 0 | 27 |
+| Sh | 2,865 | 905 | 639 | 45 |
+| Jsonnet | 1,667 | 14 | 14 | 10 |
+| Svg | 1,394 | 7 | 0 | 9 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **6.7 / 10**
+
+评分最低的几项:
+
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/etcd-io/etcd>
@@ -21,8 +43,27 @@ x install etcd
 ## 发布
 
 - **最新版本**: `v3.7.1` (2026-07-23)
-- **最近提交**: 2026-09-09
+- **最近提交**: 2026-09-10
 - **Release 含资产**: 8 个
+
+## 流行度
+
+- **Star**: 52,242 · **Fork**: 10,492 · **开放 issue**: 7,264 · **贡献者**: 983
+
+## 累计统计
+
+- **发布数**: 292 · **已合并 PR**: 10653 · **开放 PR**: 219 · **已关闭 issue**: 7139 · **开放 issue**: 125 · **提交数**: 25210
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 44 | 39 | 3 | 20 | 60 |
+| last60d | 2026-07-12 | 3 | 122 | 93 | 11 | 32 | 180 |
+| 90d | 2026-06-12 | 6 | 163 | 112 | 20 | 47 | 261 |
+| last180d | 2026-03-14 | 20 | 395 | 169 | 70 | 67 | 676 |
+| 360d | 2025-09-15 | 33 | 776 | 196 | 151 | 79 | 1403 |
+| last720d | 2024-09-20 | 53 | 1855 | 213 | 497 | 104 | 3411 |
 
 ## Release 资产
 
@@ -37,43 +78,23 @@ x install etcd
 | [etcd-v3.7.1-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.1/etcd-v3.7.1-windows-amd64.zip) | 23.3 MiB | `native/win/x64` |
 | [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.1/SHA256SUMS) | 676 B | `other` |
 
-## 流行度
+## 发行版状态
 
-- **Star**: 52,242 · **Fork**: 10,492 · **开放 issue**: 7,264 · **贡献者**: 983
+在 [repology.org](https://repology.org/project/etcd) 上共有 **170** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**127** 个 ⚠️ 使用旧版本。
 
-## 累计统计
-
-- **发布数**: 292 · **已合并 PR**: 10650 · **开放 PR**: 230 · **已关闭 issue**: 7139 · **开放 issue**: 125 · **提交数**: 25205
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 41 | 50 | 3 | 20 | 55 |
-| 90d | 2026-06-12 | 6 | 160 | 123 | 20 | 47 | 256 |
-| 360d | 2025-09-15 | 33 | 773 | 207 | 151 | 79 | 1398 |
-
-## 代码规模
-
-合计: **180,162** 行代码（覆盖前 5 种语言、共 **1182** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Go | 166,727 | 26,621 | 25,417 | 1091 |
-| Json | 5,021 | 0 | 0 | 27 |
-| Sh | 2,865 | 905 | 639 | 45 |
-| Jsonnet | 1,667 | 14 | 14 | 10 |
-| Svg | 1,394 | 7 | 0 | 9 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **6.4 / 10**
-
-评分最低的几项:
-
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.5.16` | 🪦 legacy |
+| Debian 14 | `3.5.16` | 🪦 legacy |
+| Debian 13 | `3.5.16` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
+| Arch | `3.7.1` | ✅ latest |
+| Homebrew | `3.7.1` | ✅ latest |
+| Nix unstable | `3.6.14` | ⚠️ outdated |
+| Void | `3.7.1` | ✅ latest |
+| Alpine edge | `3.6.13` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.7.1` | ✅ latest |
 
 ## 改进这些数据
 
@@ -84,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T16:43:57Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:57:54Z._

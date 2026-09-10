@@ -12,6 +12,28 @@ Distributed reliable key-value store for the most critical data of a distributed
 x install etcd
 ```
 
+## Code insight
+
+Total: **180,163** lines of code across **1182** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Go | 166,728 | 26,627 | 25,417 | 1091 |
+| Json | 5,021 | 0 | 0 | 27 |
+| Sh | 2,865 | 905 | 639 | 45 |
+| Jsonnet | 1,667 | 14 | 14 | 10 |
+| Svg | 1,394 | 7 | 0 | 9 |
+
+## OpenSSF Scorecard
+
+Overall score: **6.7 / 10**
+
+Lowest-scoring checks:
+
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+
 ## Source
 
 - **Upstream**: <https://github.com/etcd-io/etcd>
@@ -21,8 +43,27 @@ x install etcd
 ## Release
 
 - **Latest**: `v3.7.1` (2026-07-23)
-- **Last commit**: 2026-09-09
+- **Last commit**: 2026-09-10
 - **Assets in release**: 8
+
+## Popularity
+
+- **Stars**: 52,242 · **Forks**: 10,492 · **Open issues**: 7,264 · **Contributors**: 983
+
+## Totals (cumulative)
+
+- **Releases**: 292 · **Merged PRs**: 10653 · **Open PRs**: 219 · **Closed issues**: 7139 · **Open issues**: 125 · **Commits**: 25210
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 44 | 39 | 3 | 20 | 60 |
+| last60d | 2026-07-12 | 3 | 122 | 93 | 11 | 32 | 180 |
+| 90d | 2026-06-12 | 6 | 163 | 112 | 20 | 47 | 261 |
+| last180d | 2026-03-14 | 20 | 395 | 169 | 70 | 67 | 676 |
+| 360d | 2025-09-15 | 33 | 776 | 196 | 151 | 79 | 1403 |
+| last720d | 2024-09-20 | 53 | 1855 | 213 | 497 | 104 | 3411 |
 
 ## Release assets
 
@@ -37,43 +78,23 @@ x install etcd
 | [etcd-v3.7.1-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.1/etcd-v3.7.1-windows-amd64.zip) | 23.3 MiB | `native/win/x64` |
 | [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.1/SHA256SUMS) | 676 B | `other` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 52,242 · **Forks**: 10,492 · **Open issues**: 7,264 · **Contributors**: 983
+Reported by **170** distros on [repology.org](https://repology.org/project/etcd). **18** are ✅ on the latest upstream release, **127** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 292 · **Merged PRs**: 10650 · **Open PRs**: 230 · **Closed issues**: 7139 · **Open issues**: 125 · **Commits**: 25205
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 41 | 50 | 3 | 20 | 55 |
-| 90d | 2026-06-12 | 6 | 160 | 123 | 20 | 47 | 256 |
-| 360d | 2025-09-15 | 33 | 773 | 207 | 151 | 79 | 1398 |
-
-## Code size
-
-Total: **180,162** lines of code across **1182** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Go | 166,727 | 26,621 | 25,417 | 1091 |
-| Json | 5,021 | 0 | 0 | 27 |
-| Sh | 2,865 | 905 | 639 | 45 |
-| Jsonnet | 1,667 | 14 | 14 | 10 |
-| Svg | 1,394 | 7 | 0 | 9 |
-
-## OpenSSF Scorecard
-
-Overall score: **6.4 / 10**
-
-Lowest-scoring checks:
-
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `3.5.16` | 🪦 legacy |
+| Debian 14 | `3.5.16` | 🪦 legacy |
+| Debian 13 | `3.5.16` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
+| Arch | `3.7.1` | ✅ latest |
+| Homebrew | `3.7.1` | ✅ latest |
+| Nix unstable | `3.6.14` | ⚠️ outdated |
+| Void | `3.7.1` | ✅ latest |
+| Alpine edge | `3.6.13` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.7.1` | ✅ latest |
 
 ## Improve this data
 
@@ -84,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:43:56Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:57:53Z._
