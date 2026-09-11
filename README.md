@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,242 · **Forks**: 10,492 · **Open issues**: 7,264 · **Contributors**: 984
+- **Stars**: 52,243 · **Forks**: 10,493 · **Open issues**: 7,264 · **Contributors**: 984
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 45 | 38 | 3 | 20 | 62 |
-| last60d | 2026-07-12 | 3 | 123 | 92 | 11 | 32 | 182 |
-| 90d | 2026-06-12 | 6 | 164 | 111 | 20 | 47 | 263 |
-| last180d | 2026-03-14 | 20 | 396 | 168 | 70 | 67 | 678 |
-| 360d | 2025-09-15 | 33 | 777 | 195 | 151 | 79 | 1405 |
-| last720d | 2024-09-20 | 53 | 1856 | 212 | 497 | 104 | 3413 |
+| 30d | 2026-08-12 | 0 | 43 | 38 | 3 | 20 | 62 |
+| last60d | 2026-07-13 | 3 | 121 | 87 | 11 | 30 | 182 |
+| 90d | 2026-06-13 | 6 | 164 | 111 | 19 | 47 | 263 |
+| last180d | 2026-03-15 | 20 | 395 | 168 | 70 | 67 | 678 |
+| 360d | 2025-09-16 | 33 | 775 | 195 | 151 | 79 | 1405 |
+| last720d | 2024-09-21 | 53 | 1856 | 212 | 497 | 104 | 3407 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:01:11Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:39:40Z._
