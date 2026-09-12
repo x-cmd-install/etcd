@@ -30,9 +30,9 @@ x install etcd
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install etcd
 
 ## 流行度
 
-- **Star**: 52,248 · **Fork**: 10,495 · **开放 issue**: 7,265 · **贡献者**: 984
+- **Star**: 52,250 · **Fork**: 10,497 · **开放 issue**: 7,265 · **贡献者**: 984
 
 ## 累计统计
 
-- **发布数**: 292 · **已合并 PR**: 10661 · **开放 PR**: 215 · **已关闭 issue**: 7139 · **开放 issue**: 126 · **提交数**: 25219
+- **发布数**: 292 · **已合并 PR**: 10662 · **开放 PR**: 214 · **已关闭 issue**: 7141 · **开放 issue**: 124 · **提交数**: 25221
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 50 | 36 | 3 | 21 | 70 |
-| last60d | 2026-07-13 | 3 | 128 | 85 | 11 | 31 | 190 |
-| 90d | 2026-06-13 | 6 | 171 | 109 | 19 | 48 | 271 |
-| last180d | 2026-03-15 | 20 | 402 | 165 | 70 | 68 | 686 |
-| 360d | 2025-09-16 | 33 | 782 | 192 | 151 | 80 | 1413 |
-| last720d | 2024-09-21 | 53 | 1863 | 209 | 497 | 105 | 3414 |
+| 30d | 2026-08-13 | 0 | 49 | 35 | 4 | 19 | 72 |
+| last60d | 2026-07-14 | 3 | 129 | 82 | 12 | 30 | 192 |
+| 90d | 2026-06-14 | 6 | 172 | 107 | 20 | 47 | 273 |
+| last180d | 2026-03-16 | 20 | 403 | 164 | 72 | 66 | 688 |
+| 360d | 2025-09-17 | 33 | 782 | 191 | 153 | 78 | 1415 |
+| last720d | 2024-09-22 | 53 | 1864 | 208 | 499 | 103 | 3416 |
 
 ## Release 资产
 
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T20:17:33Z._
+_数据快照: `data/card/260912.yml` · 2026-09-12T04:43:57Z._
