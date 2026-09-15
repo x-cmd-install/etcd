@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.1` (2026-07-23)
-- **Last commit**: 2026-09-11
+- **Last commit**: 2026-09-14
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,261 · **Forks**: 10,497 · **Open issues**: 7,266 · **Contributors**: 984
+- **Stars**: 52,267 · **Forks**: 10,499 · **Open issues**: 7,268 · **Contributors**: 984
 
 ## Totals (cumulative)
 
-- **Releases**: 292 · **Merged PRs**: 10662 · **Open PRs**: 217 · **Closed issues**: 7142 · **Open issues**: 124 · **Commits**: 25221
+- **Releases**: 292 · **Merged PRs**: 10663 · **Open PRs**: 225 · **Closed issues**: 7142 · **Open issues**: 126 · **Commits**: 25223
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 43 | 37 | 3 | 20 | 42 |
-| last60d | 2026-07-16 | 3 | 124 | 85 | 12 | 31 | 157 |
-| 90d | 2026-06-16 | 6 | 171 | 108 | 19 | 46 | 266 |
-| last180d | 2026-03-18 | 20 | 402 | 167 | 72 | 67 | 659 |
-| 360d | 2025-09-19 | 33 | 778 | 194 | 154 | 78 | 1383 |
-| last720d | 2024-09-24 | 53 | 1859 | 211 | 500 | 103 | 3404 |
+| 30d | 2026-08-16 | 0 | 44 | 41 | 3 | 19 | 44 |
+| last60d | 2026-07-17 | 3 | 124 | 91 | 12 | 33 | 159 |
+| 90d | 2026-06-17 | 6 | 172 | 116 | 19 | 48 | 268 |
+| last180d | 2026-03-19 | 20 | 396 | 175 | 71 | 69 | 661 |
+| 360d | 2025-09-20 | 31 | 779 | 202 | 154 | 80 | 1385 |
+| last720d | 2024-09-25 | 53 | 1859 | 219 | 500 | 105 | 3397 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T04:53:47Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:05:12Z._
