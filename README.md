@@ -14,11 +14,11 @@ x install etcd
 
 ## Code insight
 
-Total: **180,491** lines of code across **1184** files in the top 5 languages.
+Total: **180,496** lines of code across **1184** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 167,040 | 26,711 | 25,483 | 1093 |
+| Go | 167,045 | 26,711 | 25,483 | 1093 |
 | Json | 5,036 | 0 | 0 | 27 |
 | Sh | 2,865 | 905 | 639 | 45 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.1` (2026-07-23)
-- **Last commit**: 2026-09-18
+- **Last commit**: 2026-09-20
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,276 · **Forks**: 10,510 · **Open issues**: 7,275 · **Contributors**: 985
+- **Stars**: 52,281 · **Forks**: 10,509 · **Open issues**: 7,276 · **Contributors**: 987
 
 ## Totals (cumulative)
 
-- **Releases**: 292 · **Merged PRs**: 10666 · **Open PRs**: 222 · **Closed issues**: 7147 · **Open issues**: 128 · **Commits**: 25232
+- **Releases**: 292 · **Merged PRs**: 10668 · **Open PRs**: 225 · **Closed issues**: 7147 · **Open issues**: 129 · **Commits**: 25234
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 34 | 38 | 3 | 24 | 40 |
-| last60d | 2026-07-22 | 3 | 94 | 77 | 10 | 37 | 132 |
-| 90d | 2026-06-22 | 6 | 166 | 109 | 18 | 53 | 259 |
-| last180d | 2026-03-24 | 17 | 394 | 172 | 72 | 71 | 648 |
-| 360d | 2025-09-25 | 31 | 767 | 199 | 156 | 81 | 1366 |
-| last720d | 2024-09-30 | 53 | 1855 | 216 | 501 | 107 | 3398 |
+| 30d | 2026-08-22 | 0 | 36 | 41 | 3 | 25 | 42 |
+| last60d | 2026-07-23 | 3 | 87 | 78 | 10 | 37 | 134 |
+| 90d | 2026-06-23 | 6 | 168 | 112 | 18 | 54 | 261 |
+| last180d | 2026-03-25 | 17 | 396 | 175 | 72 | 72 | 650 |
+| 360d | 2025-09-26 | 31 | 766 | 201 | 154 | 82 | 1368 |
+| last720d | 2024-10-01 | 53 | 1854 | 219 | 500 | 108 | 3396 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T04:55:24Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:17:09Z._
