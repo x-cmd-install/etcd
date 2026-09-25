@@ -30,9 +30,9 @@ Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.2` (2026-09-22)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-24
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,307 · **Forks**: 10,510 · **Open issues**: 7,277 · **Contributors**: 989
+- **Stars**: 52,310 · **Forks**: 10,516 · **Open issues**: 7,277 · **Contributors**: 989
 
 ## Totals (cumulative)
 
-- **Releases**: 295 · **Merged PRs**: 10680 · **Open PRs**: 226 · **Closed issues**: 7150 · **Open issues**: 127 · **Commits**: 25239
+- **Releases**: 295 · **Merged PRs**: 10681 · **Open PRs**: 224 · **Closed issues**: 7152 · **Open issues**: 125 · **Commits**: 25241
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-25 | 3 | 44 | 40 | 5 | 21 | 46 |
-| last60d | 2026-07-26 | 3 | 97 | 75 | 13 | 34 | 139 |
-| 90d | 2026-06-26 | 9 | 179 | 112 | 21 | 52 | 266 |
-| last180d | 2026-03-28 | 20 | 396 | 175 | 73 | 70 | 655 |
-| 360d | 2025-09-29 | 34 | 772 | 202 | 155 | 80 | 1373 |
-| last720d | 2024-10-04 | 56 | 1858 | 220 | 501 | 106 | 3384 |
+| 30d | 2026-08-26 | 3 | 44 | 36 | 5 | 19 | 48 |
+| last60d | 2026-07-27 | 3 | 93 | 72 | 10 | 34 | 141 |
+| 90d | 2026-06-27 | 9 | 180 | 110 | 21 | 52 | 268 |
+| last180d | 2026-03-29 | 20 | 394 | 173 | 71 | 69 | 657 |
+| 360d | 2025-09-30 | 34 | 771 | 200 | 156 | 78 | 1375 |
+| last720d | 2024-10-05 | 56 | 1855 | 217 | 499 | 104 | 3375 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260924.yml` · 2026-09-24T04:51:05Z._
+_Snapshot: `data/card/260925.yml` · 2026-09-25T04:52:43Z._
