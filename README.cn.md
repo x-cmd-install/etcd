@@ -32,7 +32,7 @@ x install etcd
 
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
 
@@ -58,12 +58,12 @@ x install etcd
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 3 | 42 | 31 | 5 | 16 | 56 |
-| last60d | 2026-07-28 | 3 | 94 | 63 | 9 | 33 | 149 |
-| 90d | 2026-06-28 | 9 | 183 | 106 | 21 | 52 | 276 |
-| last180d | 2026-03-30 | 20 | 398 | 168 | 72 | 68 | 666 |
-| 360d | 2025-10-01 | 34 | 774 | 195 | 157 | 77 | 1384 |
-| last720d | 2024-10-06 | 56 | 1859 | 212 | 501 | 102 | 3380 |
+| 30d | 2026-08-28 | 3 | 42 | 30 | 5 | 15 | 47 |
+| last60d | 2026-07-29 | 3 | 90 | 61 | 9 | 32 | 119 |
+| 90d | 2026-06-29 | 9 | 180 | 106 | 20 | 52 | 252 |
+| last180d | 2026-03-31 | 20 | 394 | 168 | 72 | 68 | 642 |
+| 360d | 2025-10-02 | 34 | 772 | 195 | 156 | 77 | 1352 |
+| last720d | 2024-10-07 | 56 | 1855 | 212 | 501 | 102 | 3378 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260926.yml` · 2026-09-26T05:00:05Z._
+_数据快照: `data/card/260927.yml` · 2026-09-27T05:24:21Z._
