@@ -30,8 +30,8 @@ x install etcd
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
@@ -43,27 +43,27 @@ x install etcd
 ## 发布
 
 - **最新版本**: `v3.7.2` (2026-09-22)
-- **最近提交**: 2026-10-04
+- **最近提交**: 2026-10-05
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 52,323 · **Fork**: 10,528 · **开放 issue**: 7,290 · **贡献者**: 989
+- **Star**: 52,329 · **Fork**: 10,529 · **开放 issue**: 7,292 · **贡献者**: 989
 
 ## 累计统计
 
-- **发布数**: 295 · **已合并 PR**: 10689 · **开放 PR**: 245 · **已关闭 issue**: 7158 · **开放 issue**: 132 · **提交数**: 25260
+- **发布数**: 295 · **已合并 PR**: 10693 · **开放 PR**: 249 · **已关闭 issue**: 7158 · **开放 issue**: 134 · **提交数**: 25266
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 3 | 39 | 50 | 8 | 21 | 41 |
-| last60d | 2026-08-06 | 3 | 81 | 79 | 13 | 40 | 117 |
-| 90d | 2026-07-07 | 7 | 168 | 128 | 20 | 57 | 242 |
-| last180d | 2026-04-08 | 17 | 383 | 191 | 71 | 76 | 634 |
-| 360d | 2025-10-10 | 34 | 761 | 220 | 156 | 85 | 1338 |
-| last720d | 2024-10-15 | 56 | 1836 | 238 | 502 | 110 | 3351 |
+| 30d | 2026-09-06 | 3 | 42 | 53 | 8 | 23 | 47 |
+| last60d | 2026-08-07 | 3 | 85 | 83 | 13 | 42 | 123 |
+| 90d | 2026-07-08 | 7 | 171 | 132 | 20 | 59 | 248 |
+| last180d | 2026-04-09 | 17 | 386 | 193 | 71 | 78 | 640 |
+| 360d | 2025-10-11 | 34 | 764 | 224 | 156 | 87 | 1344 |
+| last720d | 2024-10-16 | 56 | 1839 | 242 | 502 | 112 | 3351 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261005.yml` · 2026-10-05T05:36:04Z._
+_数据快照: `data/card/261006.yml` · 2026-10-06T06:21:29Z._

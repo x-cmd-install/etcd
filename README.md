@@ -30,8 +30,8 @@ Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.2` (2026-09-22)
-- **Last commit**: 2026-10-04
+- **Last commit**: 2026-10-05
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,323 · **Forks**: 10,528 · **Open issues**: 7,290 · **Contributors**: 989
+- **Stars**: 52,329 · **Forks**: 10,529 · **Open issues**: 7,292 · **Contributors**: 989
 
 ## Totals (cumulative)
 
-- **Releases**: 295 · **Merged PRs**: 10689 · **Open PRs**: 245 · **Closed issues**: 7158 · **Open issues**: 132 · **Commits**: 25260
+- **Releases**: 295 · **Merged PRs**: 10693 · **Open PRs**: 249 · **Closed issues**: 7158 · **Open issues**: 134 · **Commits**: 25266
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 3 | 39 | 50 | 8 | 21 | 41 |
-| last60d | 2026-08-06 | 3 | 81 | 79 | 13 | 40 | 117 |
-| 90d | 2026-07-07 | 7 | 168 | 128 | 20 | 57 | 242 |
-| last180d | 2026-04-08 | 17 | 383 | 191 | 71 | 76 | 634 |
-| 360d | 2025-10-10 | 34 | 761 | 220 | 156 | 85 | 1338 |
-| last720d | 2024-10-15 | 56 | 1836 | 238 | 502 | 110 | 3351 |
+| 30d | 2026-09-06 | 3 | 42 | 53 | 8 | 23 | 47 |
+| last60d | 2026-08-07 | 3 | 85 | 83 | 13 | 42 | 123 |
+| 90d | 2026-07-08 | 7 | 171 | 132 | 20 | 59 | 248 |
+| last180d | 2026-04-09 | 17 | 386 | 193 | 71 | 78 | 640 |
+| 360d | 2025-10-11 | 34 | 764 | 224 | 156 | 87 | 1344 |
+| last720d | 2024-10-16 | 56 | 1839 | 242 | 502 | 112 | 3351 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:36:03Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:21:28Z._
