@@ -26,13 +26,13 @@ Total: **181,028** lines of code across **1185** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.9 / 10**
+Overall score: **6.5 / 10**
 
 Lowest-scoring checks:
 
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,342 · **Forks**: 10,526 · **Open issues**: 7,294 · **Contributors**: 990
+- **Stars**: 52,346 · **Forks**: 10,528 · **Open issues**: 7,294 · **Contributors**: 990
 
 ## Totals (cumulative)
 
-- **Releases**: 295 · **Merged PRs**: 10694 · **Open PRs**: 250 · **Closed issues**: 7164 · **Open issues**: 130 · **Commits**: 25280
+- **Releases**: 295 · **Merged PRs**: 10694 · **Open PRs**: 251 · **Closed issues**: 7164 · **Open issues**: 130 · **Commits**: 25280
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 3 | 39 | 48 | 12 | 18 | 60 |
-| last60d | 2026-08-11 | 3 | 88 | 79 | 17 | 36 | 136 |
-| 90d | 2026-07-12 | 6 | 167 | 129 | 25 | 48 | 262 |
-| last180d | 2026-04-13 | 17 | 391 | 191 | 75 | 74 | 654 |
-| 360d | 2025-10-15 | 34 | 758 | 226 | 158 | 83 | 1358 |
-| last720d | 2024-10-20 | 56 | 1837 | 243 | 508 | 108 | 3346 |
+| 30d | 2026-09-11 | 3 | 33 | 48 | 12 | 17 | 43 |
+| last60d | 2026-08-12 | 3 | 86 | 80 | 17 | 36 | 110 |
+| 90d | 2026-07-13 | 6 | 165 | 126 | 25 | 46 | 243 |
+| last180d | 2026-04-14 | 17 | 391 | 191 | 74 | 73 | 617 |
+| 360d | 2025-10-16 | 34 | 753 | 227 | 157 | 83 | 1316 |
+| last720d | 2024-10-21 | 56 | 1836 | 244 | 507 | 108 | 3338 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T05:46:00Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T05:50:16Z._
