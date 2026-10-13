@@ -14,11 +14,11 @@ x install etcd
 
 ## Code insight
 
-Total: **181,028** lines of code across **1185** files in the top 5 languages.
+Total: **181,067** lines of code across **1185** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 167,568 | 26,879 | 25,561 | 1094 |
+| Go | 167,607 | 26,883 | 25,562 | 1094 |
 | Json | 5,045 | 0 | 0 | 27 |
 | Sh | 2,865 | 905 | 639 | 45 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Vulnerabilities** (3/10) — 7 existing vulnerabilities detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.2` (2026-09-22)
-- **Last commit**: 2026-10-08
+- **Last commit**: 2026-10-12
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,346 · **Forks**: 10,528 · **Open issues**: 7,294 · **Contributors**: 990
+- **Stars**: 52,356 · **Forks**: 10,529 · **Open issues**: 7,296 · **Contributors**: 992
 
 ## Totals (cumulative)
 
-- **Releases**: 295 · **Merged PRs**: 10694 · **Open PRs**: 253 · **Closed issues**: 7164 · **Open issues**: 130 · **Commits**: 25280
+- **Releases**: 295 · **Merged PRs**: 10701 · **Open PRs**: 254 · **Closed issues**: 7167 · **Open issues**: 129 · **Commits**: 25288
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-12 | 3 | 33 | 49 | 12 | 16 | 43 |
-| last60d | 2026-08-13 | 3 | 84 | 82 | 17 | 35 | 110 |
-| 90d | 2026-07-14 | 6 | 165 | 126 | 25 | 46 | 243 |
-| last180d | 2026-04-15 | 17 | 388 | 192 | 72 | 73 | 617 |
-| 360d | 2025-10-17 | 34 | 750 | 229 | 157 | 83 | 1316 |
-| last720d | 2024-10-22 | 56 | 1835 | 246 | 507 | 108 | 3336 |
+| 30d | 2026-09-13 | 3 | 39 | 51 | 14 | 15 | 53 |
+| last60d | 2026-08-14 | 3 | 86 | 84 | 18 | 34 | 120 |
+| 90d | 2026-07-15 | 6 | 171 | 127 | 27 | 45 | 253 |
+| last180d | 2026-04-16 | 17 | 392 | 193 | 74 | 72 | 627 |
+| 360d | 2025-10-18 | 34 | 757 | 230 | 160 | 82 | 1326 |
+| last720d | 2024-10-23 | 56 | 1840 | 247 | 510 | 107 | 3340 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261012.yml` · 2026-10-12T05:55:01Z._
+_Snapshot: `data/card/261013.yml` · 2026-10-13T06:59:39Z._
