@@ -26,13 +26,13 @@ Total: **181,067** lines of code across **1185** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.5 / 10**
+Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Vulnerabilities** (3/10) — 7 existing vulnerabilities detected
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.2` (2026-09-22)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-10-13
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,356 · **Forks**: 10,529 · **Open issues**: 7,296 · **Contributors**: 992
+- **Stars**: 52,362 · **Forks**: 10,532 · **Open issues**: 7,297 · **Contributors**: 992
 
 ## Totals (cumulative)
 
-- **Releases**: 295 · **Merged PRs**: 10701 · **Open PRs**: 254 · **Closed issues**: 7167 · **Open issues**: 129 · **Commits**: 25288
+- **Releases**: 295 · **Merged PRs**: 10705 · **Open PRs**: 254 · **Closed issues**: 7167 · **Open issues**: 130 · **Commits**: 25291
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 3 | 39 | 51 | 14 | 15 | 53 |
-| last60d | 2026-08-14 | 3 | 86 | 84 | 18 | 34 | 120 |
-| 90d | 2026-07-15 | 6 | 171 | 127 | 27 | 45 | 253 |
-| last180d | 2026-04-16 | 17 | 392 | 193 | 74 | 72 | 627 |
-| 360d | 2025-10-18 | 34 | 757 | 230 | 160 | 82 | 1326 |
-| last720d | 2024-10-23 | 56 | 1840 | 247 | 510 | 107 | 3340 |
+| 30d | 2026-09-14 | 3 | 41 | 51 | 14 | 16 | 56 |
+| last60d | 2026-08-15 | 3 | 89 | 83 | 18 | 35 | 123 |
+| 90d | 2026-07-16 | 6 | 171 | 127 | 27 | 46 | 256 |
+| last180d | 2026-04-17 | 17 | 389 | 193 | 73 | 73 | 630 |
+| 360d | 2025-10-19 | 34 | 761 | 230 | 160 | 83 | 1329 |
+| last720d | 2024-10-24 | 56 | 1839 | 246 | 508 | 108 | 3336 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T06:59:39Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T04:59:06Z._
