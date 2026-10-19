@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.2` (2026-09-22)
-- **Last commit**: 2026-10-17
+- **Last commit**: 2026-10-18
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,380 · **Forks**: 10,542 · **Open issues**: 7,302 · **Contributors**: 992
+- **Stars**: 52,397 · **Forks**: 10,542 · **Open issues**: 7,306 · **Contributors**: 992
 
 ## Totals (cumulative)
 
-- **Releases**: 295 · **Merged PRs**: 10718 · **Open PRs**: 255 · **Closed issues**: 7168 · **Open issues**: 134 · **Commits**: 25302
+- **Releases**: 295 · **Merged PRs**: 10720 · **Open PRs**: 254 · **Closed issues**: 7169 · **Open issues**: 137 · **Commits**: 25304
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 3 | 53 | 51 | 12 | 19 | 51 |
-| last60d | 2026-08-19 | 3 | 98 | 79 | 19 | 36 | 113 |
-| 90d | 2026-07-20 | 6 | 182 | 117 | 28 | 50 | 215 |
-| last180d | 2026-04-21 | 17 | 400 | 193 | 72 | 76 | 617 |
-| 360d | 2025-10-23 | 32 | 757 | 229 | 159 | 87 | 1296 |
-| last720d | 2024-10-28 | 56 | 1842 | 247 | 507 | 112 | 3329 |
+| 30d | 2026-09-19 | 3 | 53 | 50 | 9 | 21 | 53 |
+| last60d | 2026-08-20 | 3 | 93 | 78 | 19 | 39 | 115 |
+| 90d | 2026-07-21 | 6 | 162 | 115 | 29 | 52 | 217 |
+| last180d | 2026-04-22 | 17 | 397 | 190 | 72 | 79 | 619 |
+| 360d | 2025-10-24 | 32 | 756 | 228 | 158 | 89 | 1298 |
+| last720d | 2024-10-29 | 56 | 1841 | 246 | 507 | 115 | 3327 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261018.yml` · 2026-10-18T04:29:08Z._
+_Snapshot: `data/card/261019.yml` · 2026-10-19T04:42:29Z._
