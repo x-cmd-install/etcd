@@ -14,13 +14,13 @@ x install etcd
 
 ## 代码洞察
 
-合计: **181,248** 行代码（覆盖前 5 种语言、共 **1185** 个文件）。
+合计: **181,360** 行代码（覆盖前 5 种语言、共 **1186** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Go | 167,788 | 26,911 | 25,590 | 1094 |
 | Json | 5,045 | 0 | 0 | 27 |
-| Sh | 2,865 | 905 | 639 | 45 |
+| Sh | 2,974 | 949 | 669 | 46 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
 | Svg | 1,394 | 7 | 0 | 9 |
 
@@ -30,8 +30,8 @@ x install etcd
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
@@ -42,41 +42,59 @@ x install etcd
 
 ## 发布
 
-- **最新版本**: `v3.7.2` (2026-09-22)
-- **最近提交**: 2026-10-21
+- **最新版本**: `v3.7.3` (2026-10-22)
+- **最近提交**: 2026-10-22
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 52,413 · **Fork**: 10,545 · **开放 issue**: 7,310 · **贡献者**: 994
+- **Star**: 52,421 · **Fork**: 10,550 · **开放 issue**: 7,313 · **贡献者**: 994
 
 ## 累计统计
 
-- **发布数**: 295 · **已合并 PR**: 10726 · **开放 PR**: 268 · **已关闭 issue**: 7170 · **开放 issue**: 140 · **提交数**: 25310
+- **发布数**: 298 · **已合并 PR**: 10735 · **开放 PR**: 254 · **已关闭 issue**: 7171 · **开放 issue**: 142 · **提交数**: 25328
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 3 | 47 | 66 | 9 | 23 | 59 |
-| last60d | 2026-08-23 | 3 | 96 | 94 | 20 | 42 | 121 |
-| 90d | 2026-07-24 | 3 | 146 | 129 | 27 | 54 | 223 |
-| last180d | 2026-04-25 | 17 | 400 | 206 | 71 | 82 | 625 |
-| 360d | 2025-10-27 | 32 | 756 | 243 | 159 | 92 | 1304 |
-| last720d | 2024-11-01 | 56 | 1832 | 261 | 505 | 118 | 3312 |
+| 30d | 2026-09-23 | 3 | 53 | 53 | 10 | 25 | 76 |
+| last60d | 2026-08-24 | 6 | 102 | 79 | 20 | 43 | 138 |
+| 90d | 2026-07-25 | 6 | 154 | 111 | 28 | 55 | 240 |
+| last180d | 2026-04-26 | 20 | 403 | 192 | 72 | 84 | 643 |
+| 360d | 2025-10-28 | 35 | 764 | 229 | 160 | 94 | 1322 |
+| last720d | 2024-11-02 | 59 | 1839 | 247 | 506 | 120 | 3328 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [etcd-v3.7.2-darwin-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-darwin-amd64.zip) | 23.4 MiB | `native/darwin/x64` |
-| [etcd-v3.7.2-darwin-arm64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-darwin-arm64.zip) | 21.9 MiB | `native/darwin/arm64` |
-| [etcd-v3.7.2-linux-amd64.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-linux-amd64.tar.gz) | 22.9 MiB | `native/linux/x64` |
-| [etcd-v3.7.2-linux-arm64.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-linux-arm64.tar.gz) | 20.9 MiB | `native/linux/arm64` |
-| [etcd-v3.7.2-linux-ppc64le.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-linux-ppc64le.tar.gz) | 21.1 MiB | `native/unknown` |
-| [etcd-v3.7.2-linux-s390x.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-linux-s390x.tar.gz) | 22.6 MiB | `native/unknown` |
-| [etcd-v3.7.2-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.2/etcd-v3.7.2-windows-amd64.zip) | 23.4 MiB | `native/win/x64` |
-| [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.2/SHA256SUMS) | 676 B | `other` |
+| [etcd-v3.7.3-darwin-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-darwin-amd64.zip) | 23.3 MiB | `native/darwin/x64` |
+| [etcd-v3.7.3-darwin-arm64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-darwin-arm64.zip) | 21.8 MiB | `native/darwin/arm64` |
+| [etcd-v3.7.3-linux-amd64.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-linux-amd64.tar.gz) | 22.8 MiB | `native/linux/x64` |
+| [etcd-v3.7.3-linux-arm64.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-linux-arm64.tar.gz) | 20.9 MiB | `native/linux/arm64` |
+| [etcd-v3.7.3-linux-ppc64le.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-linux-ppc64le.tar.gz) | 21.1 MiB | `native/unknown` |
+| [etcd-v3.7.3-linux-s390x.tar.gz](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-linux-s390x.tar.gz) | 22.5 MiB | `native/unknown` |
+| [etcd-v3.7.3-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.3/etcd-v3.7.3-windows-amd64.zip) | 23.3 MiB | `native/win/x64` |
+| [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.3/SHA256SUMS) | 676 B | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/etcd) 上共有 **166** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**140** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.5.16` | 🪦 legacy |
+| Debian 14 | `3.5.16` | 🪦 legacy |
+| Debian 13 | `3.5.16` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
+| Arch | `3.7.2` | ⚠️ outdated |
+| Homebrew | `3.7.2` | ⚠️ outdated |
+| Nix unstable | `3.7.2` | ⚠️ outdated |
+| Void | `3.7.1` | ⚠️ outdated |
+| Alpine edge | `3.6.13` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.7.2` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -87,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:37:46Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:42:42Z._
