@@ -26,13 +26,13 @@ x install etcd
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.9 / 10**
+总评分: **6.7 / 10**
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install etcd
 ## 发布
 
 - **最新版本**: `v3.7.3` (2026-10-22)
-- **最近提交**: 2026-10-23
+- **最近提交**: 2026-10-28
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 52,431 · **Fork**: 10,555 · **开放 issue**: 7,314 · **贡献者**: 994
+- **Star**: 52,433 · **Fork**: 10,558 · **开放 issue**: 7,315 · **贡献者**: 994
 
 ## 累计统计
 
-- **发布数**: 298 · **已合并 PR**: 10738 · **开放 PR**: 261 · **已关闭 issue**: 7175 · **开放 issue**: 139 · **提交数**: 25334
+- **发布数**: 298 · **已合并 PR**: 10743 · **开放 PR**: 261 · **已关闭 issue**: 7175 · **开放 issue**: 140 · **提交数**: 25340
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 3 | 53 | 57 | 14 | 22 | 72 |
-| last60d | 2026-08-28 | 6 | 97 | 82 | 23 | 34 | 133 |
-| 90d | 2026-07-29 | 6 | 146 | 112 | 28 | 50 | 208 |
-| last180d | 2026-04-30 | 20 | 394 | 196 | 72 | 80 | 617 |
-| 360d | 2025-11-01 | 35 | 761 | 236 | 160 | 91 | 1318 |
-| last720d | 2024-11-06 | 59 | 1835 | 254 | 506 | 117 | 3326 |
+| 30d | 2026-09-28 | 3 | 55 | 54 | 12 | 22 | 78 |
+| last60d | 2026-08-29 | 6 | 102 | 82 | 23 | 35 | 139 |
+| 90d | 2026-07-30 | 6 | 144 | 111 | 28 | 50 | 214 |
+| last180d | 2026-05-01 | 20 | 393 | 196 | 70 | 81 | 623 |
+| 360d | 2025-11-02 | 35 | 766 | 236 | 160 | 92 | 1324 |
+| last720d | 2024-11-07 | 59 | 1835 | 254 | 505 | 118 | 3322 |
 
 ## Release 资产
 
@@ -80,7 +80,7 @@ x install etcd
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/etcd) 上共有 **166** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**131** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/etcd) 上共有 **166** 个发行版报告此项目。**12** 个 ✅ 已是最新上游版本，**129** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -91,7 +91,7 @@ x install etcd
 | Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
 | Arch | `3.7.3` | ✅ latest |
 | Homebrew | `3.7.3` | ✅ latest |
-| Nix unstable | `3.7.2` | ⚠️ outdated |
+| Nix unstable | `3.7.3` | ✅ latest |
 | Void | `3.7.1` | ⚠️ outdated |
 | Alpine edge | `3.6.13` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.7.3` | ✅ latest |
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T04:57:55Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T05:37:56Z._
