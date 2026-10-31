@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,431 · **Forks**: 10,551 · **Open issues**: 7,316 · **Contributors**: 994
+- **Stars**: 52,432 · **Forks**: 10,551 · **Open issues**: 7,317 · **Contributors**: 994
 
 ## Totals (cumulative)
 
-- **Releases**: 298 · **Merged PRs**: 10747 · **Open PRs**: 255 · **Closed issues**: 7175 · **Open issues**: 141 · **Commits**: 25342
+- **Releases**: 298 · **Merged PRs**: 10747 · **Open PRs**: 258 · **Closed issues**: 7175 · **Open issues**: 142 · **Commits**: 25342
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 3 | 56 | 44 | 11 | 22 | 80 |
-| last60d | 2026-08-31 | 6 | 103 | 75 | 23 | 36 | 141 |
-| 90d | 2026-08-01 | 6 | 146 | 102 | 28 | 51 | 216 |
-| last180d | 2026-05-03 | 17 | 396 | 190 | 70 | 82 | 625 |
-| 360d | 2025-11-04 | 35 | 766 | 230 | 160 | 93 | 1326 |
-| last720d | 2024-11-09 | 59 | 1833 | 248 | 505 | 119 | 3310 |
+| 30d | 2026-10-01 | 3 | 55 | 46 | 10 | 23 | 80 |
+| last60d | 2026-09-01 | 6 | 101 | 77 | 23 | 37 | 141 |
+| 90d | 2026-08-02 | 6 | 145 | 104 | 28 | 52 | 216 |
+| last180d | 2026-05-04 | 17 | 393 | 193 | 70 | 83 | 625 |
+| 360d | 2025-11-05 | 35 | 766 | 233 | 159 | 94 | 1326 |
+| last720d | 2024-11-10 | 59 | 1832 | 251 | 505 | 120 | 3307 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:52:59Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:37:39Z._
