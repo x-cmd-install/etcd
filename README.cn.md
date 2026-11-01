@@ -30,8 +30,8 @@ x install etcd
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
@@ -48,22 +48,22 @@ x install etcd
 
 ## 流行度
 
-- **Star**: 52,432 · **Fork**: 10,551 · **开放 issue**: 7,317 · **贡献者**: 994
+- **Star**: 52,434 · **Fork**: 10,552 · **开放 issue**: 7,317 · **贡献者**: 994
 
 ## 累计统计
 
-- **发布数**: 298 · **已合并 PR**: 10747 · **开放 PR**: 258 · **已关闭 issue**: 7175 · **开放 issue**: 142 · **提交数**: 25342
+- **发布数**: 298 · **已合并 PR**: 10747 · **开放 PR**: 259 · **已关闭 issue**: 7175 · **开放 issue**: 142 · **提交数**: 25342
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 3 | 55 | 46 | 10 | 23 | 80 |
-| last60d | 2026-09-01 | 6 | 101 | 77 | 23 | 37 | 141 |
-| 90d | 2026-08-02 | 6 | 145 | 104 | 28 | 52 | 216 |
-| last180d | 2026-05-04 | 17 | 393 | 193 | 70 | 83 | 625 |
-| 360d | 2025-11-05 | 35 | 766 | 233 | 159 | 94 | 1326 |
-| last720d | 2024-11-10 | 59 | 1832 | 251 | 505 | 120 | 3307 |
+| 30d | 2026-10-02 | 3 | 55 | 43 | 10 | 23 | 59 |
+| last60d | 2026-09-02 | 6 | 100 | 79 | 22 | 37 | 130 |
+| 90d | 2026-08-03 | 6 | 144 | 105 | 28 | 52 | 197 |
+| last180d | 2026-05-05 | 17 | 390 | 194 | 69 | 82 | 598 |
+| 360d | 2025-11-06 | 35 | 761 | 234 | 157 | 94 | 1294 |
+| last720d | 2024-11-11 | 59 | 1826 | 252 | 505 | 120 | 3304 |
 
 ## Release 资产
 
@@ -80,7 +80,7 @@ x install etcd
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/etcd) 上共有 **166** 个发行版报告此项目。**16** 个 ✅ 已是最新上游版本，**125** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/etcd) 上共有 **167** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**125** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261031.yml` · 2026-10-31T05:37:39Z._
+_数据快照: `data/card/261101.yml` · 2026-11-01T05:58:33Z._

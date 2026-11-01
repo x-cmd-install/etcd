@@ -30,8 +30,8 @@ Overall score: **6.7 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,432 · **Forks**: 10,551 · **Open issues**: 7,317 · **Contributors**: 994
+- **Stars**: 52,434 · **Forks**: 10,552 · **Open issues**: 7,317 · **Contributors**: 994
 
 ## Totals (cumulative)
 
-- **Releases**: 298 · **Merged PRs**: 10747 · **Open PRs**: 258 · **Closed issues**: 7175 · **Open issues**: 142 · **Commits**: 25342
+- **Releases**: 298 · **Merged PRs**: 10747 · **Open PRs**: 259 · **Closed issues**: 7175 · **Open issues**: 142 · **Commits**: 25342
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 3 | 55 | 46 | 10 | 23 | 80 |
-| last60d | 2026-09-01 | 6 | 101 | 77 | 23 | 37 | 141 |
-| 90d | 2026-08-02 | 6 | 145 | 104 | 28 | 52 | 216 |
-| last180d | 2026-05-04 | 17 | 393 | 193 | 70 | 83 | 625 |
-| 360d | 2025-11-05 | 35 | 766 | 233 | 159 | 94 | 1326 |
-| last720d | 2024-11-10 | 59 | 1832 | 251 | 505 | 120 | 3307 |
+| 30d | 2026-10-02 | 3 | 55 | 43 | 10 | 23 | 59 |
+| last60d | 2026-09-02 | 6 | 100 | 79 | 22 | 37 | 130 |
+| 90d | 2026-08-03 | 6 | 144 | 105 | 28 | 52 | 197 |
+| last180d | 2026-05-05 | 17 | 390 | 194 | 69 | 82 | 598 |
+| 360d | 2025-11-06 | 35 | 761 | 234 | 157 | 94 | 1294 |
+| last720d | 2024-11-11 | 59 | 1826 | 252 | 505 | 120 | 3304 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **166** distros on [repology.org](https://repology.org/project/etcd). **16** are ✅ on the latest upstream release, **125** are ⚠️ on an older version.
+Reported by **167** distros on [repology.org](https://repology.org/project/etcd). **17** are ✅ on the latest upstream release, **125** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:37:39Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T05:58:32Z._
