@@ -14,11 +14,11 @@ x install etcd
 
 ## Code insight
 
-Total: **181,500** lines of code across **1186** files in the top 5 languages.
+Total: **181,693** lines of code across **1186** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 167,919 | 26,920 | 25,607 | 1094 |
+| Go | 168,112 | 26,934 | 25,622 | 1094 |
 | Json | 5,054 | 0 | 0 | 27 |
 | Sh | 2,974 | 949 | 669 | 46 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.3` (2026-10-22)
-- **Last commit**: 2026-11-05
+- **Last commit**: 2026-11-06
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,476 · **Forks**: 10,568 · **Open issues**: 7,321 · **Contributors**: 997
+- **Stars**: 52,640 · **Forks**: 10,590 · **Open issues**: 7,338 · **Contributors**: 997
 
 ## Totals (cumulative)
 
-- **Releases**: 298 · **Merged PRs**: 10764 · **Open PRs**: 262 · **Closed issues**: 7176 · **Open issues**: 145 · **Commits**: 25362
+- **Releases**: 298 · **Merged PRs**: 10765 · **Open PRs**: 263 · **Closed issues**: 7176 · **Open issues**: 162 · **Commits**: 25365
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 3 | 66 | 37 | 10 | 19 | 79 |
-| last60d | 2026-09-07 | 6 | 113 | 72 | 23 | 36 | 150 |
-| 90d | 2026-08-08 | 6 | 157 | 103 | 29 | 55 | 217 |
-| last180d | 2026-05-10 | 17 | 395 | 195 | 67 | 83 | 618 |
-| 360d | 2025-11-11 | 35 | 768 | 235 | 156 | 97 | 1314 |
-| last720d | 2024-11-16 | 57 | 1828 | 254 | 501 | 121 | 3297 |
+| 30d | 2026-10-08 | 3 | 65 | 39 | 8 | 36 | 82 |
+| last60d | 2026-09-08 | 6 | 113 | 70 | 23 | 51 | 153 |
+| 90d | 2026-08-09 | 6 | 157 | 101 | 28 | 72 | 220 |
+| last180d | 2026-05-11 | 17 | 392 | 195 | 65 | 100 | 621 |
+| 360d | 2025-11-12 | 35 | 767 | 235 | 156 | 114 | 1317 |
+| last720d | 2024-11-17 | 57 | 1828 | 255 | 500 | 138 | 3286 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **20** are ✅ on the latest upstream release, **121** are ⚠️ on an older version.
+Reported by **167** distros on [repology.org](https://repology.org/project/etcd). **22** are ✅ on the latest upstream release, **120** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:34:41Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:03:22Z._
