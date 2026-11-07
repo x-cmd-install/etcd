@@ -135,6 +135,18 @@
   licenses:
     - Apache-2.0
 - repo: freebsd
+  srcname: devel/etcd35
+  binname: coreos-etcd35
+  visiblename: devel/etcd35
+  version: 3.5.35
+  origversion: null
+  status: legacy
+  summary: Highly-available key value store and service discovery
+  maintainers:
+    - kiwi@freebsd.org
+  categories:
+    - devel
+- repo: freebsd
   srcname: devel/etcd36
   binname: coreos-etcd36
   visiblename: devel/etcd36
@@ -268,7 +280,7 @@
     - MIT
   categories:
     - dev-db
-- repo: manjaro_unstable
+- repo: manjaro_stable
   subrepo: extra
   srcname: etcd
   binname: etcd
@@ -276,6 +288,28 @@
   version: 3.7.2
   origversion: 3.7.2-1
   status: outdated
+  summary: A distributed, reliable key-value store for the most critical data of a distributed system
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: etcd
+  binname: etcd
+  visiblename: etcd
+  version: 3.7.3
+  origversion: 3.7.3-1
+  status: newest
+  summary: A distributed, reliable key-value store for the most critical data of a distributed system
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: etcd
+  binname: etcd
+  visiblename: etcd
+  version: 3.7.3
+  origversion: 3.7.3-1
+  status: newest
   summary: A distributed, reliable key-value store for the most critical data of a distributed system
   licenses:
     - Apache-2.0
@@ -359,15 +393,6 @@
     - 18gatenmaker6@gmail.com
   licenses:
     - Apache-2.0
-- repo: scoop
-  subrepo: main
-  binname: etcd
-  visiblename: etcd
-  version: 3.7.3
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: etcd
@@ -395,6 +420,15 @@
   origversion: 3.7.3-1
   status: newest
   summary: A distributed, reliable key-value store for the most critical data of a distributed system
+  licenses:
+    - Apache-2.0
+- repo: scoop
+  subrepo: main
+  binname: etcd
+  visiblename: etcd
+  version: 3.7.3
+  origversion: null
+  status: newest
   licenses:
     - Apache-2.0
 - repo: stalix
@@ -476,78 +510,6 @@
     - orphan@voidlinux.org
   licenses:
     - Apache-2.0
-- repo: deepin_25
-  subrepo: main
-  srcname: etcd
-  binnames:
-    - etcd-server
-    - etcd-client
-    - golang-etcd-server-dev
-  visiblename: etcd
-  version: 3.5.15
-  origversion: 3.5.15-7
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-    - jelmer@debian.org
-    - tpot@hpe.com
-  categories:
-    - net
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: etcd
-  binnames:
-    - etcd
-    - etcd-server
-    - etcd-client
-    - golang-etcd-server-dev
-  visiblename: etcd
-  version: 3.3.25
-  origversion: 3.3.25+dfsg-6
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-    - jelmer@debian.org
-    - tpot@hpe.com
-  categories:
-    - net
-  vulnerable: true
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: etcd
-  binnames:
-    - etcd-server
-    - etcd-client
-    - golang-etcd-server-dev
-  visiblename: etcd
-  version: 3.5.30
-  origversion: 3.5.30-2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-    - jelmer@debian.org
-    - tpot@hpe.com
-  categories:
-    - net
-  vulnerable: true
-- repo: alpine_3_23
-  subrepo: community
-  srcname: etcd
-  binname: etcd-openrc
-  visiblename: etcd-openrc
-  version: 3.6.10
-  origversion: 3.6.10-r1
-  status: outdated
-  summary: A highly-available key value store for shared configuration and service discovery (OpenRC init scripts)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: aixtoolbox
   srcname: etcd
   visiblename: etcd
@@ -684,19 +646,6 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: centos_7
-  subrepo: extras
-  srcname: etcd
-  visiblename: etcd
-  version: 3.2.32
-  origversion: 3.2.32-1.el7_9
-  status: outdated
-  summary: A highly-available key value store for shared configuration
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: alpine_3_23
   subrepo: community
   srcname: etcd
@@ -734,6 +683,20 @@
   origversion: 3.6.10-r1
   status: outdated
   summary: A highly-available key value store for shared configuration and service discovery (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_23
+  subrepo: community
+  srcname: etcd
+  binname: etcd-openrc
+  visiblename: etcd-openrc
+  version: 3.6.10
+  origversion: 3.6.10-r1
+  status: outdated
+  summary: A highly-available key value store for shared configuration and service discovery (OpenRC init scripts)
   maintainers:
     - fcolista@alpinelinux.org
   licenses:
@@ -794,25 +757,6 @@
     - fcolista@alpinelinux.org
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: etcd
-  binnames:
-    - etcd-server
-    - etcd-client
-    - golang-etcd-server-dev
-  visiblename: etcd
-  version: 3.5.15
-  origversion: 3.5.15-7
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - foka@debian.org
-    - jelmer@debian.org
-    - tpot@hpe.com
-  categories:
-    - net
   vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
@@ -913,8 +857,21 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: centos_7
+  subrepo: extras
+  srcname: etcd
+  visiblename: etcd
+  version: 3.2.32
+  origversion: 3.2.32-1.el7_9
+  status: outdated
+  summary: A highly-available key value store for shared configuration
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: debian_11
-  subrepo: bullseye/main
+  subrepo: bullseye-security/main
   srcname: etcd
   binnames:
     - etcd
@@ -934,7 +891,7 @@
     - net
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye-security/main
+  subrepo: bullseye/main
   srcname: etcd
   binnames:
     - etcd
@@ -1123,6 +1080,83 @@
     - jelmer@debian.org
     - tpot@hpe.com
   vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: etcd
+  binnames:
+    - etcd-server
+    - etcd-client
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 3.5.15
+  origversion: 3.5.15-7
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+    - jelmer@debian.org
+    - tpot@hpe.com
+  categories:
+    - net
+  vulnerable: true
+- repo: deepin_25
+  subrepo: main
+  srcname: etcd
+  binnames:
+    - etcd-server
+    - etcd-client
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 3.5.15
+  origversion: 3.5.15-7
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+    - jelmer@debian.org
+    - tpot@hpe.com
+  categories:
+    - net
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: etcd
+  binnames:
+    - etcd
+    - etcd-server
+    - etcd-client
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 3.3.25
+  origversion: 3.3.25+dfsg-6
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+    - jelmer@debian.org
+    - tpot@hpe.com
+  categories:
+    - net
+  vulnerable: true
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: etcd
+  binnames:
+    - etcd-server
+    - etcd-client
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 3.5.30
+  origversion: 3.5.30-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+    - jelmer@debian.org
+    - tpot@hpe.com
+  categories:
+    - net
+  vulnerable: true
 - repo: exherbo
   subrepo: CleverCloud
   srcname: dev-db/etcd
@@ -1226,19 +1260,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/backports
-  srcname: etcd
-  visiblename: etcd
-  version: 3.5.21
-  origversion: 3.5.21-bp156.4.9.1
-  status: outdated
-  summary: Highly-available key value store for configuration and service discovery
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-  vulnerable: true
 - repo: fedora_44
   subrepo: release
   srcname: etcd
@@ -1267,19 +1288,6 @@
   summary: Highly-available key value store and service discovery
   maintainers:
     - 0mp@freebsd.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: freebsd
-  srcname: devel/etcd35
-  binname: coreos-etcd35
-  visiblename: devel/etcd35
-  version: 3.5.28
-  origversion: 3.5.28_9
-  status: outdated
-  summary: Highly-available key value store and service discovery
-  maintainers:
-    - kiwi@freebsd.org
   categories:
     - devel
   vulnerable: true
@@ -1801,17 +1809,18 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openpkg_current
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
   srcname: etcd
   visiblename: etcd
-  version: 3.6.7.20251219
-  origversion: null
+  version: 3.5.12
+  origversion: 3.5.12-150000.7.6.1
   status: outdated
-  summary: High-Availability Distributed Key/Value Store
+  summary: Highly-available key value store for configuration and service discovery
   licenses:
-    - Apache
+    - Apache-2.0
   categories:
-    - Networking
+    - System/Management
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
@@ -1826,12 +1835,12 @@
   categories:
     - System/Management
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
   srcname: etcd
   visiblename: etcd
-  version: 3.5.12
-  origversion: 3.5.12-150000.7.6.1
+  version: 3.4.3
+  origversion: 3.4.3-bp156.3.10
   status: outdated
   summary: Highly-available key value store for configuration and service discovery
   licenses:
@@ -1846,6 +1855,19 @@
   version: 3.5.12
   origversion: 3.5.12-bp156.4.3.1
   status: legacy
+  summary: Highly-available key value store for configuration and service discovery
+  licenses:
+    - Apache-2.0
+  categories:
+    - System/Management
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/backports
+  srcname: etcd
+  visiblename: etcd
+  version: 3.5.21
+  origversion: 3.5.21-bp156.4.9.1
+  status: outdated
   summary: Highly-available key value store for configuration and service discovery
   licenses:
     - Apache-2.0
@@ -1930,21 +1952,8 @@
   categories:
     - System/Management
   vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: etcd
-  visiblename: etcd
-  version: 3.4.3
-  origversion: 3.4.3-bp156.3.10
-  status: outdated
-  summary: Highly-available key value store for configuration and service discovery
-  licenses:
-    - Apache-2.0
-  categories:
-    - System/Management
-  vulnerable: true
 - repo: pardus_21
-  subrepo: updates/main
+  subrepo: main
   srcname: etcd
   binnames:
     - etcd
@@ -1964,7 +1973,7 @@
     - net
   vulnerable: true
 - repo: pardus_21
-  subrepo: main
+  subrepo: updates/main
   srcname: etcd
   binnames:
     - etcd
@@ -2210,23 +2219,6 @@
     - Apache-2.0
   vulnerable: true
 - repo: ubuntu_16_04
-  subrepo: xenial-updates/universe
-  srcname: etcd
-  binnames:
-    - etcd
-    - golang-etcd-server-dev
-  visiblename: etcd
-  version: 2.2.5
-  origversion: 2.2.5+dfsg-1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jelmer@debian.org
-    - onlyjob@debian.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_16_04
   subrepo: xenial/universe
   srcname: etcd
   binnames:
@@ -2238,6 +2230,23 @@
   status: outdated
   maintainers:
     - pkg-go-maintainers@lists.alioth.debian.org
+    - jelmer@debian.org
+    - onlyjob@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/universe
+  srcname: etcd
+  binnames:
+    - etcd
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 2.2.5
+  origversion: 2.2.5+dfsg-1ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - jelmer@debian.org
     - onlyjob@debian.org
   categories:
@@ -2284,26 +2293,6 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal-updates/universe
-  srcname: etcd
-  binnames:
-    - etcd
-    - etcd-server
-    - etcd-client
-    - golang-etcd-server-dev
-  visiblename: etcd
-  version: 3.2.26
-  origversion: 3.2.26+dfsg-6ubuntu0.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - foka@debian.org
-    - jelmer@debian.org
-    - tpot@hpe.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: etcd
   binnames:
@@ -2317,6 +2306,26 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+    - jelmer@debian.org
+    - tpot@hpe.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/universe
+  srcname: etcd
+  binnames:
+    - etcd
+    - etcd-server
+    - etcd-client
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 3.2.26
+  origversion: 3.2.26+dfsg-6ubuntu0.2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - foka@debian.org
     - jelmer@debian.org
     - tpot@hpe.com
@@ -2364,7 +2373,7 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/universe
+  subrepo: noble-updates/universe
   srcname: etcd
   binnames:
     - etcd-server
@@ -2372,7 +2381,7 @@
     - golang-etcd-server-dev
   visiblename: etcd
   version: 3.4.30
-  origversion: 3.4.30-1build1
+  origversion: 3.4.30-1ubuntu0.24.04.3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2383,7 +2392,7 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+  subrepo: noble/universe
   srcname: etcd
   binnames:
     - etcd-server
@@ -2391,7 +2400,7 @@
     - golang-etcd-server-dev
   visiblename: etcd
   version: 3.4.30
-  origversion: 3.4.30-1ubuntu0.24.04.3
+  origversion: 3.4.30-1build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2460,6 +2469,25 @@
   vulnerable: true
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: etcd
+  binnames:
+    - etcd-server
+    - etcd-client
+    - golang-etcd-server-dev
+  visiblename: etcd
+  version: 3.5.30
+  origversion: 3.5.30-2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - foka@debian.org
+    - jelmer@debian.org
+    - tpot@hpe.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: etcd
   binnames:
     - etcd-server
