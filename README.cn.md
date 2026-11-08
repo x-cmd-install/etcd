@@ -30,8 +30,8 @@ x install etcd
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
@@ -48,22 +48,22 @@ x install etcd
 
 ## 流行度
 
-- **Star**: 52,640 · **Fork**: 10,590 · **开放 issue**: 7,338 · **贡献者**: 997
+- **Star**: 52,670 · **Fork**: 10,594 · **开放 issue**: 7,338 · **贡献者**: 997
 
 ## 累计统计
 
-- **发布数**: 298 · **已合并 PR**: 10765 · **开放 PR**: 263 · **已关闭 issue**: 7176 · **开放 issue**: 162 · **提交数**: 25365
+- **发布数**: 298 · **已合并 PR**: 10765 · **开放 PR**: 266 · **已关闭 issue**: 7177 · **开放 issue**: 161 · **提交数**: 25365
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 3 | 65 | 39 | 8 | 36 | 82 |
-| last60d | 2026-09-08 | 6 | 113 | 70 | 23 | 51 | 153 |
-| 90d | 2026-08-09 | 6 | 157 | 101 | 28 | 72 | 220 |
-| last180d | 2026-05-11 | 17 | 392 | 195 | 65 | 100 | 621 |
-| 360d | 2025-11-12 | 35 | 767 | 235 | 156 | 114 | 1317 |
-| last720d | 2024-11-17 | 57 | 1828 | 255 | 500 | 138 | 3286 |
+| 30d | 2026-10-09 | 3 | 57 | 40 | 9 | 35 | 69 |
+| last60d | 2026-09-09 | 6 | 109 | 73 | 24 | 50 | 134 |
+| 90d | 2026-08-10 | 6 | 156 | 103 | 29 | 70 | 207 |
+| last180d | 2026-05-12 | 17 | 390 | 196 | 66 | 99 | 597 |
+| 360d | 2025-11-13 | 32 | 765 | 238 | 157 | 112 | 1286 |
+| last720d | 2024-11-18 | 57 | 1826 | 258 | 501 | 137 | 3277 |
 
 ## Release 资产
 
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261107.yml` · 2026-11-07T06:03:23Z._
+_数据快照: `data/card/261108.yml` · 2026-11-08T06:09:04Z._

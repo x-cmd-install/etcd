@@ -30,8 +30,8 @@ Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,640 · **Forks**: 10,590 · **Open issues**: 7,338 · **Contributors**: 997
+- **Stars**: 52,670 · **Forks**: 10,594 · **Open issues**: 7,338 · **Contributors**: 997
 
 ## Totals (cumulative)
 
-- **Releases**: 298 · **Merged PRs**: 10765 · **Open PRs**: 263 · **Closed issues**: 7176 · **Open issues**: 162 · **Commits**: 25365
+- **Releases**: 298 · **Merged PRs**: 10765 · **Open PRs**: 266 · **Closed issues**: 7177 · **Open issues**: 161 · **Commits**: 25365
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 3 | 65 | 39 | 8 | 36 | 82 |
-| last60d | 2026-09-08 | 6 | 113 | 70 | 23 | 51 | 153 |
-| 90d | 2026-08-09 | 6 | 157 | 101 | 28 | 72 | 220 |
-| last180d | 2026-05-11 | 17 | 392 | 195 | 65 | 100 | 621 |
-| 360d | 2025-11-12 | 35 | 767 | 235 | 156 | 114 | 1317 |
-| last720d | 2024-11-17 | 57 | 1828 | 255 | 500 | 138 | 3286 |
+| 30d | 2026-10-09 | 3 | 57 | 40 | 9 | 35 | 69 |
+| last60d | 2026-09-09 | 6 | 109 | 73 | 24 | 50 | 134 |
+| 90d | 2026-08-10 | 6 | 156 | 103 | 29 | 70 | 207 |
+| last180d | 2026-05-12 | 17 | 390 | 196 | 66 | 99 | 597 |
+| 360d | 2025-11-13 | 32 | 765 | 238 | 157 | 112 | 1286 |
+| last720d | 2024-11-18 | 57 | 1826 | 258 | 501 | 137 | 3277 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:03:22Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:09:04Z._
