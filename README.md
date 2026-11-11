@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.3` (2026-10-22)
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-10
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,685 · **Forks**: 10,595 · **Open issues**: 7,356 · **Contributors**: 996
+- **Stars**: 52,691 · **Forks**: 10,596 · **Open issues**: 7,363 · **Contributors**: 996
 
 ## Totals (cumulative)
 
-- **Releases**: 298 · **Merged PRs**: 10764 · **Open PRs**: 272 · **Closed issues**: 7177 · **Open issues**: 179 · **Commits**: 25365
+- **Releases**: 298 · **Merged PRs**: 10767 · **Open PRs**: 272 · **Closed issues**: 7178 · **Open issues**: 185 · **Commits**: 25371
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 3 | 57 | 45 | 9 | 53 | 69 |
-| last60d | 2026-09-11 | 6 | 99 | 77 | 24 | 67 | 134 |
-| 90d | 2026-08-12 | 6 | 153 | 108 | 29 | 86 | 207 |
-| last180d | 2026-05-14 | 17 | 385 | 202 | 66 | 117 | 597 |
-| 360d | 2025-11-15 | 32 | 762 | 244 | 157 | 130 | 1286 |
-| last720d | 2024-11-20 | 57 | 1823 | 264 | 498 | 154 | 3273 |
+| 30d | 2026-10-12 | 3 | 59 | 46 | 8 | 60 | 75 |
+| last60d | 2026-09-12 | 6 | 102 | 78 | 24 | 73 | 140 |
+| 90d | 2026-08-13 | 6 | 154 | 110 | 29 | 92 | 213 |
+| last180d | 2026-05-15 | 17 | 385 | 202 | 67 | 123 | 603 |
+| 360d | 2025-11-16 | 32 | 764 | 244 | 158 | 135 | 1292 |
+| last720d | 2024-11-21 | 57 | 1825 | 264 | 498 | 160 | 3275 |
 
 ## Release assets
 
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:28:15Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:11:11Z._
