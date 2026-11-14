@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,601 · **Forks**: 10,598 · **Open issues**: 7,371 · **Contributors**: 1,006
+- **Stars**: 52,603 · **Forks**: 10,598 · **Open issues**: 7,371 · **Contributors**: 1,006
 
 ## Totals (cumulative)
 
-- **Releases**: 298 · **Merged PRs**: 10787 · **Open PRs**: 291 · **Closed issues**: 7196 · **Open issues**: 175 · **Commits**: 25409
+- **Releases**: 298 · **Merged PRs**: 10788 · **Open PRs**: 292 · **Closed issues**: 7196 · **Open issues**: 175 · **Commits**: 25409
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 3 | 72 | 58 | 25 | 49 | 112 |
-| last60d | 2026-09-14 | 6 | 119 | 96 | 41 | 64 | 177 |
-| 90d | 2026-08-15 | 6 | 168 | 127 | 45 | 83 | 250 |
-| last180d | 2026-05-17 | 17 | 403 | 219 | 85 | 113 | 640 |
-| 360d | 2025-11-18 | 32 | 773 | 262 | 175 | 125 | 1329 |
-| last720d | 2024-11-23 | 57 | 1842 | 283 | 515 | 150 | 3305 |
+| 30d | 2026-10-15 | 3 | 72 | 57 | 25 | 48 | 112 |
+| last60d | 2026-09-15 | 6 | 120 | 97 | 40 | 63 | 177 |
+| 90d | 2026-08-16 | 6 | 169 | 124 | 45 | 80 | 250 |
+| last180d | 2026-05-18 | 17 | 402 | 220 | 85 | 113 | 640 |
+| 360d | 2025-11-19 | 32 | 770 | 263 | 174 | 125 | 1329 |
+| last720d | 2024-11-24 | 57 | 1843 | 284 | 515 | 150 | 3303 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **167** distros on [repology.org](https://repology.org/project/etcd). **22** are ✅ on the latest upstream release, **120** are ⚠️ on an older version.
+Reported by **167** distros on [repology.org](https://repology.org/project/etcd). **22** are ✅ on the latest upstream release, **119** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261113.yml` · 2026-11-13T06:53:52Z._
+_Snapshot: `data/card/261114.yml` · 2026-11-14T06:19:51Z._
