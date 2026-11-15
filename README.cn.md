@@ -14,13 +14,13 @@ x install etcd
 
 ## 代码洞察
 
-合计: **181,858** 行代码（覆盖前 5 种语言、共 **1193** 个文件）。
+合计: **181,861** 行代码（覆盖前 5 种语言、共 **1194** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Go | 168,265 | 26,993 | 25,641 | 1096 |
 | Json | 5,054 | 0 | 0 | 27 |
-| Sh | 2,996 | 1,021 | 689 | 51 |
+| Sh | 2,999 | 1,035 | 692 | 52 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
 | Svg | 1,394 | 7 | 0 | 9 |
 
@@ -30,9 +30,9 @@ x install etcd
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install etcd
 ## 发布
 
 - **最新版本**: `v3.7.3` (2026-10-22)
-- **最近提交**: 2026-11-12
+- **最近提交**: 2026-11-14
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 52,603 · **Fork**: 10,598 · **开放 issue**: 7,371 · **贡献者**: 1,006
+- **Star**: 52,607 · **Fork**: 10,600 · **开放 issue**: 7,371 · **贡献者**: 1,006
 
 ## 累计统计
 
-- **发布数**: 298 · **已合并 PR**: 10788 · **开放 PR**: 292 · **已关闭 issue**: 7196 · **开放 issue**: 175 · **提交数**: 25409
+- **发布数**: 298 · **已合并 PR**: 10791 · **开放 PR**: 290 · **已关闭 issue**: 7196 · **开放 issue**: 175 · **提交数**: 25412
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 3 | 72 | 57 | 25 | 48 | 112 |
-| last60d | 2026-09-15 | 6 | 120 | 97 | 40 | 63 | 177 |
-| 90d | 2026-08-16 | 6 | 169 | 124 | 45 | 80 | 250 |
-| last180d | 2026-05-18 | 17 | 402 | 220 | 85 | 113 | 640 |
-| 360d | 2025-11-19 | 32 | 770 | 263 | 174 | 125 | 1329 |
-| last720d | 2024-11-24 | 57 | 1843 | 284 | 515 | 150 | 3303 |
+| 30d | 2026-10-16 | 3 | 69 | 57 | 25 | 48 | 78 |
+| last60d | 2026-09-16 | 6 | 123 | 95 | 40 | 62 | 165 |
+| 90d | 2026-08-17 | 6 | 171 | 123 | 45 | 80 | 227 |
+| last180d | 2026-05-19 | 17 | 405 | 217 | 85 | 113 | 587 |
+| 360d | 2025-11-20 | 32 | 772 | 261 | 174 | 125 | 1311 |
+| last720d | 2024-11-25 | 57 | 1844 | 282 | 515 | 150 | 3305 |
 
 ## Release 资产
 
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261114.yml` · 2026-11-14T06:19:52Z._
+_数据快照: `data/card/261115.yml` · 2026-11-15T06:32:22Z._
