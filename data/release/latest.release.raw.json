@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 24482683,
       "digest": "sha256:2477b78926372784f32d6c6174aca98525fd1339dec3de0e667c9ae38f8ee431",
-      "download_count": 14,
+      "download_count": 42,
       "created_at": "2026-11-19T00:02:30Z",
       "updated_at": "2026-11-19T00:02:32Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-darwin-amd64.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 22883675,
       "digest": "sha256:8288e23b0c531af38b4daa72d4c3a83886ff773b0950d9b38e1174b0370cb36a",
-      "download_count": 15,
+      "download_count": 54,
       "created_at": "2026-11-19T00:02:27Z",
       "updated_at": "2026-11-19T00:02:29Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-darwin-arm64.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 23946843,
       "digest": "sha256:a0d47d07d081c12611fe69dc81a16ae8dd758401c0fe3a83d508823a1dac558e",
-      "download_count": 192,
+      "download_count": 1441,
       "created_at": "2026-11-19T00:02:21Z",
       "updated_at": "2026-11-19T00:02:23Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 21926727,
       "digest": "sha256:3f5d12a3b4119141bd5bc80a0a895100d049d6c85a2c76b1bb767204a899024a",
-      "download_count": 36,
+      "download_count": 232,
       "created_at": "2026-11-19T00:02:18Z",
       "updated_at": "2026-11-19T00:02:20Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 22101016,
       "digest": "sha256:2a5bbae04d5f027f51b67d4ffbc6675d580e08d61e1027c33752393c6a596148",
-      "download_count": 19,
+      "download_count": 45,
       "created_at": "2026-11-19T00:02:14Z",
       "updated_at": "2026-11-19T00:02:17Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-ppc64le.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 23638622,
       "digest": "sha256:577024cae8646c025176ee3b871840268e82247f13e587fb24ecc11c105224ae",
-      "download_count": 16,
+      "download_count": 35,
       "created_at": "2026-11-19T00:02:11Z",
       "updated_at": "2026-11-19T00:02:13Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-s390x.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 24463731,
       "digest": "sha256:25cc2d77af4fbb49a9cf0960e8c182783595172cc2da815b1aca19df127e969d",
-      "download_count": 39,
+      "download_count": 120,
       "created_at": "2026-11-19T00:02:24Z",
       "updated_at": "2026-11-19T00:02:26Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-windows-amd64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 676,
       "digest": "sha256:af120b923eb6dec86c75e48062132c269337d4ed5791f93aaebde0eb633d1a7c",
-      "download_count": 77,
+      "download_count": 241,
       "created_at": "2026-11-19T00:02:33Z",
       "updated_at": "2026-11-19T00:02:34Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/SHA256SUMS"
@@ -330,13 +330,13 @@
   "body": "Please check out [CHANGELOG](https://github.com/etcd-io/etcd/blob/main/CHANGELOG/CHANGELOG-3.7.md) for a full list of changes. And make sure to read [upgrade guide](https://etcd.io/docs/v3.7/upgrades/upgrade_3_7/) before upgrading etcd (there may be breaking changes).\r\n\r\nFor installation guides, please check out [play.etcd.io](http://play.etcd.io) and [operating etcd](https://etcd.io/docs/v3.7/op-guide/). Latest support status for common architectures and operating systems can be found at [supported platforms](https://etcd.io/docs/v3.7/op-guide/supported-platform/).\r\n\r\n###### Linux\r\n\r\n```sh\r\nETCD_VER=v3.7.4\r\n\r\n# choose either URL\r\nGOOGLE_URL=https://storage.googleapis.com/etcd\r\nGITHUB_URL=https://github.com/etcd-io/etcd/releases/download\r\nDOWNLOAD_URL=${GOOGLE_URL}\r\n\r\nrm -f /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz\r\nrm -rf /tmp/etcd-download-test && mkdir -p /tmp/etcd-download-test\r\n\r\ncurl -L ${DOWNLOAD_URL}/${ETCD_VER}/etcd-${ETCD_VER}-linux-amd64.tar.gz -o /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz\r\ntar xzvf /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz -C /tmp/etcd-download-test --strip-components=1 --no-same-owner\r\nrm -f /tmp/etcd-${ETCD_VER}-linux-amd64.tar.gz\r\n\r\n/tmp/etcd-download-test/etcd --version\r\n/tmp/etcd-download-test/etcdctl version\r\n/tmp/etcd-download-test/etcdutl version\r\n\r\n# start a local etcd server\r\n/tmp/etcd-download-test/etcd\r\n\r\n# write,read to etcd\r\n/tmp/etcd-download-test/etcdctl --endpoints=localhost:2379 put foo bar\r\n/tmp/etcd-download-test/etcdctl --endpoints=localhost:2379 get foo\r\n```\r\n\r\n###### macOS (Darwin)\r\n\r\n```sh\r\nETCD_VER=v3.7.4\r\n\r\n# choose either URL\r\nGOOGLE_URL=https://storage.googleapis.com/etcd\r\nGITHUB_URL=https://github.com/etcd-io/etcd/releases/download\r\nDOWNLOAD_URL=${GOOGLE_URL}\r\n\r\nrm -f /tmp/etcd-${ETCD_VER}-darwin-amd64.zip\r\nrm -rf /tmp/etcd-download-test && mkdir -p /tmp/etcd-download-test\r\n\r\ncurl -L ${DOWNLOAD_URL}/${ETCD_VER}/etcd-${ETCD_VER}-darwin-amd64.zip -o /tmp/etcd-${ETCD_VER}-darwin-amd64.zip\r\nunzip /tmp/etcd-${ETCD_VER}-darwin-amd64.zip -d /tmp && rm -f /tmp/etcd-${ETCD_VER}-darwin-amd64.zip\r\nmv /tmp/etcd-${ETCD_VER}-darwin-amd64/* /tmp/etcd-download-test && rm -rf mv /tmp/etcd-${ETCD_VER}-darwin-amd64\r\n\r\n/tmp/etcd-download-test/etcd --version\r\n/tmp/etcd-download-test/etcdctl version\r\n/tmp/etcd-download-test/etcdutl version\r\n```\r\n\r\n###### Docker\r\n\r\netcd uses [`gcr.io/etcd-development/etcd`](https://gcr.io/etcd-development/etcd) as a primary container registry, and [`quay.io/coreos/etcd`](https://quay.io/coreos/etcd) as secondary.\r\n\r\n```sh\r\nETCD_VER=v3.7.4\r\n\r\nrm -rf /tmp/etcd-data.tmp && mkdir -p /tmp/etcd-data.tmp && \\\r\n  docker rmi gcr.io/etcd-development/etcd:${ETCD_VER} || true && \\\r\n  docker run \\\r\n  -p 2379:2379 \\\r\n  -p 2380:2380 \\\r\n  --mount type=bind,source=/tmp/etcd-data.tmp,destination=/etcd-data \\\r\n  --name etcd-gcr-${ETCD_VER} \\\r\n  gcr.io/etcd-development/etcd:${ETCD_VER} \\\r\n  /usr/local/bin/etcd \\\r\n  --name s1 \\\r\n  --data-dir /etcd-data \\\r\n  --listen-client-urls http://0.0.0.0:2379 \\\r\n  --advertise-client-urls http://0.0.0.0:2379 \\\r\n  --listen-peer-urls http://0.0.0.0:2380 \\\r\n  --initial-advertise-peer-urls http://0.0.0.0:2380 \\\r\n  --initial-cluster s1=http://0.0.0.0:2380 \\\r\n  --initial-cluster-token tkn \\\r\n  --initial-cluster-state new \\\r\n  --log-level info \\\r\n  --logger zap \\\r\n  --log-outputs stderr\r\n\r\ndocker exec etcd-gcr-${ETCD_VER} /usr/local/bin/etcd --version\r\ndocker exec etcd-gcr-${ETCD_VER} /usr/local/bin/etcdctl version\r\ndocker exec etcd-gcr-${ETCD_VER} /usr/local/bin/etcdutl version\r\ndocker exec etcd-gcr-${ETCD_VER} /usr/local/bin/etcdctl endpoint health\r\ndocker exec etcd-gcr-${ETCD_VER} /usr/local/bin/etcdctl put foo bar\r\ndocker exec etcd-gcr-${ETCD_VER} /usr/local/bin/etcdctl get foo\r\n```\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/etcd-io/etcd/releases/450707348/reactions",
-    "total_count": 3,
+    "total_count": 4,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 3,
+    "heart": 4,
     "rocket": 0,
     "eyes": 0
   }
