@@ -14,13 +14,13 @@ x install etcd
 
 ## 代码洞察
 
-合计: **181,904** 行代码（覆盖前 5 种语言、共 **1199** 个文件）。
+合计: **181,901** 行代码（覆盖前 5 种语言、共 **1199** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
 | Go | 168,286 | 26,984 | 25,627 | 1096 |
 | Json | 5,054 | 0 | 0 | 27 |
-| Sh | 3,021 | 1,107 | 718 | 57 |
+| Sh | 3,018 | 1,107 | 717 | 57 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
 | Svg | 1,394 | 7 | 0 | 9 |
 
@@ -32,7 +32,7 @@ x install etcd
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install etcd
 
 ## 流行度
 
-- **Star**: 52,626 · **Fork**: 10,613 · **开放 issue**: 7,380 · **贡献者**: 1,011
+- **Star**: 52,645 · **Fork**: 10,620 · **开放 issue**: 7,383 · **贡献者**: 1,011
 
 ## 累计统计
 
-- **发布数**: 301 · **已合并 PR**: 10802 · **开放 PR**: 301 · **已关闭 issue**: 7205 · **开放 issue**: 175 · **提交数**: 25432
+- **发布数**: 301 · **已合并 PR**: 10805 · **开放 PR**: 299 · **已关闭 issue**: 7207 · **开放 issue**: 176 · **提交数**: 25434
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 6 | 71 | 63 | 26 | 46 | 97 |
-| last60d | 2026-09-20 | 9 | 128 | 105 | 42 | 61 | 184 |
-| 90d | 2026-08-21 | 9 | 170 | 133 | 52 | 80 | 246 |
-| last180d | 2026-05-23 | 19 | 393 | 224 | 89 | 114 | 608 |
-| 360d | 2025-11-24 | 35 | 780 | 272 | 180 | 126 | 1332 |
-| last720d | 2024-11-29 | 60 | 1849 | 293 | 522 | 151 | 3314 |
+| 30d | 2026-10-21 | 6 | 71 | 67 | 28 | 46 | 99 |
+| last60d | 2026-09-21 | 9 | 125 | 110 | 44 | 63 | 186 |
+| 90d | 2026-08-22 | 9 | 173 | 138 | 54 | 82 | 248 |
+| last180d | 2026-05-24 | 19 | 393 | 220 | 91 | 115 | 610 |
+| 360d | 2025-11-25 | 35 | 782 | 270 | 182 | 127 | 1334 |
+| last720d | 2024-11-30 | 60 | 1844 | 291 | 521 | 152 | 3301 |
 
 ## Release 资产
 
@@ -80,7 +80,7 @@ x install etcd
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/etcd) 上共有 **166** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**135** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/etcd) 上共有 **166** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**134** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -89,7 +89,7 @@ x install etcd
 | Debian 13 | `3.5.16` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
-| Arch | `3.7.3` | ⚠️ outdated |
+| Arch | `3.7.4` | ✅ latest |
 | Homebrew | `3.7.4` | ✅ latest |
 | Nix unstable | `3.7.3` | ⚠️ outdated |
 | Void | `3.7.1` | ⚠️ outdated |
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261119.yml` · 2026-11-19T07:28:26Z._
+_数据快照: `data/card/261120.yml` · 2026-11-20T09:28:01Z._

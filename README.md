@@ -14,13 +14,13 @@ x install etcd
 
 ## Code insight
 
-Total: **181,904** lines of code across **1199** files in the top 5 languages.
+Total: **181,901** lines of code across **1199** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Go | 168,286 | 26,984 | 25,627 | 1096 |
 | Json | 5,054 | 0 | 0 | 27 |
-| Sh | 3,021 | 1,107 | 718 | 57 |
+| Sh | 3,018 | 1,107 | 717 | 57 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
 | Svg | 1,394 | 7 | 0 | 9 |
 
@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,626 · **Forks**: 10,613 · **Open issues**: 7,380 · **Contributors**: 1,011
+- **Stars**: 52,645 · **Forks**: 10,620 · **Open issues**: 7,383 · **Contributors**: 1,011
 
 ## Totals (cumulative)
 
-- **Releases**: 301 · **Merged PRs**: 10802 · **Open PRs**: 301 · **Closed issues**: 7205 · **Open issues**: 175 · **Commits**: 25432
+- **Releases**: 301 · **Merged PRs**: 10805 · **Open PRs**: 299 · **Closed issues**: 7207 · **Open issues**: 176 · **Commits**: 25434
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 6 | 71 | 63 | 26 | 46 | 97 |
-| last60d | 2026-09-20 | 9 | 128 | 105 | 42 | 61 | 184 |
-| 90d | 2026-08-21 | 9 | 170 | 133 | 52 | 80 | 246 |
-| last180d | 2026-05-23 | 19 | 393 | 224 | 89 | 114 | 608 |
-| 360d | 2025-11-24 | 35 | 780 | 272 | 180 | 126 | 1332 |
-| last720d | 2024-11-29 | 60 | 1849 | 293 | 522 | 151 | 3314 |
+| 30d | 2026-10-21 | 6 | 71 | 67 | 28 | 46 | 99 |
+| last60d | 2026-09-21 | 9 | 125 | 110 | 44 | 63 | 186 |
+| 90d | 2026-08-22 | 9 | 173 | 138 | 54 | 82 | 248 |
+| last180d | 2026-05-24 | 19 | 393 | 220 | 91 | 115 | 610 |
+| 360d | 2025-11-25 | 35 | 782 | 270 | 182 | 127 | 1334 |
+| last720d | 2024-11-30 | 60 | 1844 | 291 | 521 | 152 | 3301 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **166** distros on [repology.org](https://repology.org/project/etcd). **5** are ✅ on the latest upstream release, **135** are ⚠️ on an older version.
+Reported by **166** distros on [repology.org](https://repology.org/project/etcd). **6** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,7 +89,7 @@ Reported by **166** distros on [repology.org](https://repology.org/project/etcd)
 | Debian 13 | `3.5.16` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
-| Arch | `3.7.3` | ⚠️ outdated |
+| Arch | `3.7.4` | ✅ latest |
 | Homebrew | `3.7.4` | ✅ latest |
 | Nix unstable | `3.7.3` | ⚠️ outdated |
 | Void | `3.7.1` | ⚠️ outdated |
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T07:28:25Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T09:28:00Z._
