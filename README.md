@@ -30,9 +30,9 @@ Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.4` (2026-11-19)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-20
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,645 · **Forks**: 10,620 · **Open issues**: 7,383 · **Contributors**: 1,011
+- **Stars**: 52,645 · **Forks**: 10,620 · **Open issues**: 7,384 · **Contributors**: 1,012
 
 ## Totals (cumulative)
 
-- **Releases**: 301 · **Merged PRs**: 10805 · **Open PRs**: 299 · **Closed issues**: 7207 · **Open issues**: 176 · **Commits**: 25434
+- **Releases**: 301 · **Merged PRs**: 10806 · **Open PRs**: 300 · **Closed issues**: 7208 · **Open issues**: 176 · **Commits**: 25436
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 6 | 71 | 67 | 28 | 46 | 99 |
-| last60d | 2026-09-21 | 9 | 125 | 110 | 44 | 63 | 186 |
-| 90d | 2026-08-22 | 9 | 173 | 138 | 54 | 82 | 248 |
-| last180d | 2026-05-24 | 19 | 393 | 220 | 91 | 115 | 610 |
-| 360d | 2025-11-25 | 35 | 782 | 270 | 182 | 127 | 1334 |
-| last720d | 2024-11-30 | 60 | 1844 | 291 | 521 | 152 | 3301 |
+| 30d | 2026-10-22 | 6 | 68 | 68 | 28 | 45 | 101 |
+| last60d | 2026-09-22 | 9 | 125 | 111 | 45 | 62 | 188 |
+| 90d | 2026-08-23 | 9 | 174 | 139 | 55 | 82 | 250 |
+| last180d | 2026-05-25 | 19 | 393 | 220 | 92 | 115 | 612 |
+| 360d | 2025-11-26 | 35 | 783 | 271 | 183 | 127 | 1336 |
+| last720d | 2024-12-01 | 60 | 1842 | 292 | 521 | 152 | 3299 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **166** distros on [repology.org](https://repology.org/project/etcd). **6** are ✅ on the latest upstream release, **134** are ⚠️ on an older version.
+Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **9** are ✅ on the latest upstream release, **130** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **166** distros on [repology.org](https://repology.org/project/etcd)
 | Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
 | Arch | `3.7.4` | ✅ latest |
 | Homebrew | `3.7.4` | ✅ latest |
-| Nix unstable | `3.7.3` | ⚠️ outdated |
+| Nix unstable | `3.7.4` | ✅ latest |
 | Void | `3.7.1` | ⚠️ outdated |
 | Alpine edge | `3.7.3` | ⚠️ outdated |
 | openSUSE Tumbleweed | `3.7.3` | ⚠️ outdated |
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T09:28:00Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:15:18Z._
