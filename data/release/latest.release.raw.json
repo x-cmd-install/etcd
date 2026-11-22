@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 24482683,
       "digest": "sha256:2477b78926372784f32d6c6174aca98525fd1339dec3de0e667c9ae38f8ee431",
-      "download_count": 53,
+      "download_count": 125,
       "created_at": "2026-11-19T00:02:30Z",
       "updated_at": "2026-11-19T00:02:32Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-darwin-amd64.zip"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 22883675,
       "digest": "sha256:8288e23b0c531af38b4daa72d4c3a83886ff773b0950d9b38e1174b0370cb36a",
-      "download_count": 69,
+      "download_count": 182,
       "created_at": "2026-11-19T00:02:27Z",
       "updated_at": "2026-11-19T00:02:29Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-darwin-arm64.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 23946843,
       "digest": "sha256:a0d47d07d081c12611fe69dc81a16ae8dd758401c0fe3a83d508823a1dac558e",
-      "download_count": 2760,
+      "download_count": 3904,
       "created_at": "2026-11-19T00:02:21Z",
       "updated_at": "2026-11-19T00:02:23Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-amd64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 21926727,
       "digest": "sha256:3f5d12a3b4119141bd5bc80a0a895100d049d6c85a2c76b1bb767204a899024a",
-      "download_count": 325,
+      "download_count": 473,
       "created_at": "2026-11-19T00:02:18Z",
       "updated_at": "2026-11-19T00:02:20Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 22101016,
       "digest": "sha256:2a5bbae04d5f027f51b67d4ffbc6675d580e08d61e1027c33752393c6a596148",
-      "download_count": 59,
+      "download_count": 67,
       "created_at": "2026-11-19T00:02:14Z",
       "updated_at": "2026-11-19T00:02:17Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-ppc64le.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 23638622,
       "digest": "sha256:577024cae8646c025176ee3b871840268e82247f13e587fb24ecc11c105224ae",
-      "download_count": 49,
+      "download_count": 57,
       "created_at": "2026-11-19T00:02:11Z",
       "updated_at": "2026-11-19T00:02:13Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-linux-s390x.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 24463731,
       "digest": "sha256:25cc2d77af4fbb49a9cf0960e8c182783595172cc2da815b1aca19df127e969d",
-      "download_count": 158,
+      "download_count": 326,
       "created_at": "2026-11-19T00:02:24Z",
       "updated_at": "2026-11-19T00:02:26Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-windows-amd64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 676,
       "digest": "sha256:af120b923eb6dec86c75e48062132c269337d4ed5791f93aaebde0eb633d1a7c",
-      "download_count": 379,
+      "download_count": 510,
       "created_at": "2026-11-19T00:02:33Z",
       "updated_at": "2026-11-19T00:02:34Z",
       "browser_download_url": "https://github.com/etcd-io/etcd/releases/download/v3.7.4/SHA256SUMS"
