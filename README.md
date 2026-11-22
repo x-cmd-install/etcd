@@ -52,18 +52,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 301 · **Merged PRs**: 10806 · **Open PRs**: 300 · **Closed issues**: 7208 · **Open issues**: 176 · **Commits**: 25436
+- **Releases**: 301 · **Merged PRs**: 10806 · **Open PRs**: 302 · **Closed issues**: 7208 · **Open issues**: 176 · **Commits**: 25436
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 6 | 68 | 68 | 28 | 45 | 101 |
-| last60d | 2026-09-22 | 9 | 125 | 111 | 45 | 62 | 188 |
-| 90d | 2026-08-23 | 9 | 174 | 139 | 55 | 82 | 250 |
-| last180d | 2026-05-25 | 19 | 393 | 220 | 92 | 115 | 612 |
-| 360d | 2025-11-26 | 35 | 783 | 271 | 183 | 127 | 1336 |
-| last720d | 2024-12-01 | 60 | 1842 | 292 | 521 | 152 | 3299 |
+| 30d | 2026-10-23 | 3 | 67 | 68 | 27 | 44 | 91 |
+| last60d | 2026-09-23 | 6 | 124 | 113 | 45 | 62 | 176 |
+| 90d | 2026-08-24 | 9 | 173 | 139 | 54 | 81 | 238 |
+| last180d | 2026-05-26 | 19 | 390 | 220 | 92 | 114 | 551 |
+| 360d | 2025-11-27 | 35 | 782 | 273 | 183 | 127 | 1326 |
+| last720d | 2024-12-02 | 60 | 1839 | 294 | 521 | 151 | 3287 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **9** are ✅ on the latest upstream release, **130** are ⚠️ on an older version.
+Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **12** are ✅ on the latest upstream release, **127** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:15:18Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T06:47:14Z._
