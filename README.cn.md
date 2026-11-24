@@ -26,12 +26,12 @@ x install etcd
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7 / 10**
+总评分: **6.9 / 10**
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## 源代码
@@ -43,27 +43,27 @@ x install etcd
 ## 发布
 
 - **最新版本**: `v3.7.4` (2026-11-19)
-- **最近提交**: 2026-11-23
+- **最近提交**: 2026-11-24
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 52,649 · **Fork**: 10,623 · **开放 issue**: 7,392 · **贡献者**: 1,012
+- **Star**: 52,644 · **Fork**: 10,624 · **开放 issue**: 7,399 · **贡献者**: 1,011
 
 ## 累计统计
 
-- **发布数**: 301 · **已合并 PR**: 10808 · **开放 PR**: 310 · **已关闭 issue**: 7208 · **开放 issue**: 184 · **提交数**: 25443
+- **发布数**: 301 · **已合并 PR**: 10811 · **开放 PR**: 327 · **已关闭 issue**: 7208 · **开放 issue**: 191 · **提交数**: 25449
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 3 | 68 | 74 | 27 | 52 | 98 |
-| last60d | 2026-09-24 | 6 | 124 | 121 | 45 | 70 | 183 |
-| 90d | 2026-08-25 | 9 | 173 | 146 | 54 | 88 | 245 |
-| last180d | 2026-05-27 | 19 | 386 | 228 | 92 | 122 | 558 |
-| 360d | 2025-11-28 | 35 | 783 | 281 | 183 | 135 | 1333 |
-| last720d | 2024-12-03 | 60 | 1838 | 302 | 517 | 159 | 3284 |
+| 30d | 2026-10-25 | 3 | 71 | 90 | 27 | 59 | 104 |
+| last60d | 2026-09-25 | 6 | 127 | 137 | 45 | 77 | 189 |
+| 90d | 2026-08-26 | 9 | 175 | 161 | 53 | 94 | 251 |
+| last180d | 2026-05-28 | 19 | 379 | 243 | 91 | 128 | 564 |
+| 360d | 2025-11-29 | 35 | 786 | 298 | 182 | 142 | 1339 |
+| last720d | 2024-12-04 | 60 | 1835 | 319 | 515 | 166 | 3287 |
 
 ## Release 资产
 
@@ -80,7 +80,7 @@ x install etcd
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/etcd) 上共有 **165** 个发行版报告此项目。**14** 个 ✅ 已是最新上游版本，**125** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/etcd) 上共有 **165** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**124** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -94,7 +94,7 @@ x install etcd
 | Nix unstable | `3.7.4` | ✅ latest |
 | Void | `3.7.1` | ⚠️ outdated |
 | Alpine edge | `3.7.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.7.3` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.7.4` | ✅ latest |
 
 ## 改进这些数据
 
@@ -105,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T07:47:00Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:00:08Z._

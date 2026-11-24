@@ -26,12 +26,12 @@ Total: **181,910** lines of code across **1199** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7 / 10**
+Overall score: **6.9 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
 - **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.7.4` (2026-11-19)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-24
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 52,649 · **Forks**: 10,623 · **Open issues**: 7,392 · **Contributors**: 1,012
+- **Stars**: 52,644 · **Forks**: 10,624 · **Open issues**: 7,399 · **Contributors**: 1,011
 
 ## Totals (cumulative)
 
-- **Releases**: 301 · **Merged PRs**: 10808 · **Open PRs**: 310 · **Closed issues**: 7208 · **Open issues**: 184 · **Commits**: 25443
+- **Releases**: 301 · **Merged PRs**: 10811 · **Open PRs**: 327 · **Closed issues**: 7208 · **Open issues**: 191 · **Commits**: 25449
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 3 | 68 | 74 | 27 | 52 | 98 |
-| last60d | 2026-09-24 | 6 | 124 | 121 | 45 | 70 | 183 |
-| 90d | 2026-08-25 | 9 | 173 | 146 | 54 | 88 | 245 |
-| last180d | 2026-05-27 | 19 | 386 | 228 | 92 | 122 | 558 |
-| 360d | 2025-11-28 | 35 | 783 | 281 | 183 | 135 | 1333 |
-| last720d | 2024-12-03 | 60 | 1838 | 302 | 517 | 159 | 3284 |
+| 30d | 2026-10-25 | 3 | 71 | 90 | 27 | 59 | 104 |
+| last60d | 2026-09-25 | 6 | 127 | 137 | 45 | 77 | 189 |
+| 90d | 2026-08-26 | 9 | 175 | 161 | 53 | 94 | 251 |
+| last180d | 2026-05-28 | 19 | 379 | 243 | 91 | 128 | 564 |
+| 360d | 2025-11-29 | 35 | 786 | 298 | 182 | 142 | 1339 |
+| last720d | 2024-12-04 | 60 | 1835 | 319 | 515 | 166 | 3287 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **14** are ✅ on the latest upstream release, **125** are ⚠️ on an older version.
+Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **15** are ✅ on the latest upstream release, **124** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -94,7 +94,7 @@ Reported by **165** distros on [repology.org](https://repology.org/project/etcd)
 | Nix unstable | `3.7.4` | ✅ latest |
 | Void | `3.7.1` | ⚠️ outdated |
 | Alpine edge | `3.7.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.7.3` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.7.4` | ✅ latest |
 
 ## Improve this data
 
@@ -105,4 +105,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:46:58Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:00:07Z._
