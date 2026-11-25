@@ -14,11 +14,11 @@ x install etcd
 
 ## Code insight
 
-Total: **181,910** lines of code across **1199** files in the top 5 languages.
+Total: **181,620** lines of code across **1199** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 168,286 | 26,984 | 25,627 | 1096 |
+| Go | 167,996 | 26,990 | 25,619 | 1096 |
 | Json | 5,063 | 0 | 0 | 27 |
 | Sh | 3,018 | 1,107 | 717 | 57 |
 | Jsonnet | 1,667 | 14 | 14 | 10 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,644 · **Forks**: 10,624 · **Open issues**: 7,399 · **Contributors**: 1,011
+- **Stars**: 52,650 · **Forks**: 10,627 · **Open issues**: 7,400 · **Contributors**: 1,011
 
 ## Totals (cumulative)
 
-- **Releases**: 301 · **Merged PRs**: 10811 · **Open PRs**: 327 · **Closed issues**: 7208 · **Open issues**: 191 · **Commits**: 25449
+- **Releases**: 301 · **Merged PRs**: 10819 · **Open PRs**: 338 · **Closed issues**: 7208 · **Open issues**: 192 · **Commits**: 25460
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 3 | 71 | 90 | 27 | 59 | 104 |
-| last60d | 2026-09-25 | 6 | 127 | 137 | 45 | 77 | 189 |
-| 90d | 2026-08-26 | 9 | 175 | 161 | 53 | 94 | 251 |
-| last180d | 2026-05-28 | 19 | 379 | 243 | 91 | 128 | 564 |
-| 360d | 2025-11-29 | 35 | 786 | 298 | 182 | 142 | 1339 |
-| last720d | 2024-12-04 | 60 | 1835 | 319 | 515 | 166 | 3287 |
+| 30d | 2026-10-26 | 3 | 75 | 101 | 27 | 60 | 115 |
+| last60d | 2026-09-26 | 6 | 134 | 148 | 45 | 78 | 201 |
+| 90d | 2026-08-27 | 9 | 178 | 171 | 53 | 92 | 263 |
+| last180d | 2026-05-29 | 19 | 381 | 253 | 86 | 129 | 576 |
+| 360d | 2025-11-30 | 35 | 794 | 309 | 182 | 143 | 1351 |
+| last720d | 2024-12-05 | 60 | 1841 | 330 | 513 | 167 | 3285 |
 
 ## Release assets
 
@@ -78,24 +78,6 @@ Lowest-scoring checks:
 | [etcd-v3.7.4-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-windows-amd64.zip) | 23.3 MiB | `native/win/x64` |
 | [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.4/SHA256SUMS) | 676 B | `other` |
 
-## Distribution status
-
-Reported by **165** distros on [repology.org](https://repology.org/project/etcd). **15** are ✅ on the latest upstream release, **124** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.5.16` | 🪦 legacy |
-| Debian 14 | `3.5.16` | 🪦 legacy |
-| Debian 13 | `3.5.16` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
-| Arch | `3.7.4` | ✅ latest |
-| Homebrew | `3.7.4` | ✅ latest |
-| Nix unstable | `3.7.4` | ✅ latest |
-| Void | `3.7.1` | ⚠️ outdated |
-| Alpine edge | `3.7.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.7.4` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `etcd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -105,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:00:07Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:30:45Z._
