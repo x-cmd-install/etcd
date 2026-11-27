@@ -48,22 +48,22 @@ x install etcd
 
 ## 流行度
 
-- **Star**: 52,654 · **Fork**: 10,632 · **开放 issue**: 7,402 · **贡献者**: 1,011
+- **Star**: 52,660 · **Fork**: 10,635 · **开放 issue**: 7,403 · **贡献者**: 1,011
 
 ## 累计统计
 
-- **发布数**: 301 · **已合并 PR**: 10819 · **开放 PR**: 358 · **已关闭 issue**: 7208 · **开放 issue**: 194 · **提交数**: 25460
+- **发布数**: 301 · **已合并 PR**: 10819 · **开放 PR**: 365 · **已关闭 issue**: 7208 · **开放 issue**: 195 · **提交数**: 25460
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 3 | 75 | 124 | 26 | 62 | 115 |
-| last60d | 2026-09-27 | 6 | 134 | 170 | 45 | 80 | 201 |
-| 90d | 2026-08-28 | 9 | 178 | 194 | 53 | 93 | 263 |
-| last180d | 2026-05-30 | 19 | 377 | 272 | 85 | 130 | 576 |
-| 360d | 2025-12-01 | 35 | 793 | 329 | 182 | 145 | 1351 |
-| last720d | 2024-12-06 | 60 | 1838 | 350 | 511 | 169 | 3281 |
+| 30d | 2026-10-28 | 3 | 70 | 131 | 26 | 63 | 115 |
+| last60d | 2026-09-28 | 6 | 132 | 173 | 43 | 80 | 201 |
+| 90d | 2026-08-29 | 9 | 178 | 201 | 53 | 94 | 263 |
+| last180d | 2026-05-31 | 19 | 376 | 279 | 85 | 131 | 576 |
+| 360d | 2025-12-02 | 35 | 793 | 336 | 182 | 146 | 1351 |
+| last720d | 2024-12-07 | 60 | 1836 | 357 | 511 | 170 | 3274 |
 
 ## Release 资产
 
@@ -78,6 +78,24 @@ x install etcd
 | [etcd-v3.7.4-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-windows-amd64.zip) | 23.3 MiB | `native/win/x64` |
 | [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.4/SHA256SUMS) | 676 B | `other` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/etcd) 上共有 **164** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**123** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `3.5.16` | 🪦 legacy |
+| Debian 14 | `3.5.16` | 🪦 legacy |
+| Debian 13 | `3.5.16` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
+| Arch | `3.7.4` | ✅ latest |
+| Homebrew | `3.7.4` | ✅ latest |
+| Nix unstable | `3.7.4` | ✅ latest |
+| Void | `3.7.1` | ⚠️ outdated |
+| Alpine edge | `3.7.3` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.7.4` | ✅ latest |
+
 ## 改进这些数据
 
 etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `etcd` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -87,4 +105,4 @@ etcd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:22:05Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T08:37:41Z._
