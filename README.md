@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 52,660 · **Forks**: 10,635 · **Open issues**: 7,403 · **Contributors**: 1,011
+- **Stars**: 52,661 · **Forks**: 10,632 · **Open issues**: 7,404 · **Contributors**: 1,011
 
 ## Totals (cumulative)
 
-- **Releases**: 301 · **Merged PRs**: 10819 · **Open PRs**: 365 · **Closed issues**: 7208 · **Open issues**: 195 · **Commits**: 25460
+- **Releases**: 301 · **Merged PRs**: 10819 · **Open PRs**: 367 · **Closed issues**: 7208 · **Open issues**: 196 · **Commits**: 25460
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 3 | 70 | 131 | 26 | 63 | 115 |
-| last60d | 2026-09-28 | 6 | 132 | 173 | 43 | 80 | 201 |
-| 90d | 2026-08-29 | 9 | 178 | 201 | 53 | 94 | 263 |
-| last180d | 2026-05-31 | 19 | 376 | 279 | 85 | 131 | 576 |
-| 360d | 2025-12-02 | 35 | 793 | 336 | 182 | 146 | 1351 |
-| last720d | 2024-12-07 | 60 | 1836 | 357 | 511 | 170 | 3274 |
+| 30d | 2026-10-29 | 3 | 70 | 133 | 26 | 63 | 115 |
+| last60d | 2026-09-29 | 6 | 131 | 172 | 42 | 80 | 201 |
+| 90d | 2026-08-30 | 9 | 178 | 203 | 53 | 95 | 263 |
+| last180d | 2026-06-01 | 19 | 374 | 279 | 85 | 132 | 576 |
+| 360d | 2025-12-03 | 35 | 792 | 338 | 180 | 147 | 1351 |
+| last720d | 2024-12-08 | 60 | 1836 | 359 | 511 | 171 | 3272 |
 
 ## Release assets
 
@@ -78,24 +78,6 @@ Lowest-scoring checks:
 | [etcd-v3.7.4-windows-amd64.zip](https://github.com/etcd-io/etcd/releases/download/v3.7.4/etcd-v3.7.4-windows-amd64.zip) | 23.3 MiB | `native/win/x64` |
 | [SHA256SUMS](https://github.com/etcd-io/etcd/releases/download/v3.7.4/SHA256SUMS) | 676 B | `other` |
 
-## Distribution status
-
-Reported by **164** distros on [repology.org](https://repology.org/project/etcd). **15** are ✅ on the latest upstream release, **123** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `3.5.16` | 🪦 legacy |
-| Debian 14 | `3.5.16` | 🪦 legacy |
-| Debian 13 | `3.5.16` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `3.5.16` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `3.4.30` | ⚠️ outdated |
-| Arch | `3.7.4` | ✅ latest |
-| Homebrew | `3.7.4` | ✅ latest |
-| Nix unstable | `3.7.4` | ✅ latest |
-| Void | `3.7.1` | ⚠️ outdated |
-| Alpine edge | `3.7.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `3.7.4` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `etcd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -105,4 +87,4 @@ Install metadata for etcd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:37:40Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:44:40Z._
